@@ -1,0 +1,1 @@
+<uv-input wx:if="{{b}}" u-s="{{['d']}}" bindupdateModelValue="{{a}}" u-i="43c997f4-0" bind:__l="__l" u-p="{{b}}"><slot name="prefix"></slot><slot name="suffix"></slot></uv-input>

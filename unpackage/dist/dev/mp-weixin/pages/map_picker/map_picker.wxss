@@ -1,0 +1,76 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-container.data-v-5182b819 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.map-component.data-v-5182b819 {
+  width: 100%;
+  height: 100%;
+}
+.map-loading-placeholder.data-v-5182b819 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.center-marker.data-v-5182b819 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  z-index: 10;
+}
+.address-panel.data-v-5182b819 {
+  position: absolute;
+  bottom: 160rpx;
+  left: 24rpx;
+  right: 24rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  min-height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loading-text.data-v-5182b819 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title.data-v-5182b819 {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.desc.data-v-5182b819 {
+  font-size: 26rpx;
+  color: #666;
+}
+.bottom-button.data-v-5182b819 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20rpx 40rpx;
+  background: #fff;
+  z-index: 10;
+  padding-bottom: calc(20rpx + env(safe-area-inset-bottom));
+}

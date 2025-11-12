@@ -1,0 +1,27 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-container.data-v-f2465368 {
+  padding: 24rpx;
+  background-color: #fff;
+  min-height: 100vh;
+}
+.bottom-button.data-v-f2465368 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20rpx 40rpx;
+  background: #fff;
+  border-top: 1rpx solid #f0f0f0;
+  padding-bottom: calc(20rpx + env(safe-area-inset-bottom));
+}

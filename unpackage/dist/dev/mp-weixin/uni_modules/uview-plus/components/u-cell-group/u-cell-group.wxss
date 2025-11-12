@@ -1,0 +1,26 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-cell-group.data-v-014d39dc {
+  flex: 1;
+}
+.u-cell-group__title.data-v-014d39dc {
+  padding: 16px 16px 8px;
+}
+.u-cell-group__title__text.data-v-014d39dc {
+  font-size: 15px;
+  line-height: 16px;
+  color: #303133;
+}
+.u-cell-group__wrapper.data-v-014d39dc {
+  position: relative;
+}

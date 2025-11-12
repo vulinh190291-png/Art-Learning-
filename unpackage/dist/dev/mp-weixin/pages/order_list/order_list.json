@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "usingComponents": {
+    "u-loading-icon": "../../uni_modules/uview-plus/components/u-loading-icon/u-loading-icon",
+    "u-empty": "../../uni_modules/uview-plus/components/u-empty/u-empty",
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button"
+  }
+}

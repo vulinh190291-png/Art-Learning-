@@ -1,0 +1,67 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-badge.data-v-06cca9b7 {
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  line-height: 11px;
+  text-align: center;
+  font-size: 11px;
+  color: #FFFFFF;
+}
+.u-badge--dot.data-v-06cca9b7 {
+  height: 8px;
+  width: 8px;
+}
+.u-badge--inverted.data-v-06cca9b7 {
+  font-size: 13px;
+}
+.u-badge--not-dot.data-v-06cca9b7 {
+  padding: 2px 5px;
+}
+.u-badge--horn.data-v-06cca9b7 {
+  border-bottom-left-radius: 0;
+}
+.u-badge--primary.data-v-06cca9b7 {
+  background-color: #3c9cff;
+}
+.u-badge--primary--inverted.data-v-06cca9b7 {
+  color: #3c9cff;
+}
+.u-badge--error.data-v-06cca9b7 {
+  background-color: #f56c6c;
+}
+.u-badge--error--inverted.data-v-06cca9b7 {
+  color: #f56c6c;
+}
+.u-badge--success.data-v-06cca9b7 {
+  background-color: #5ac725;
+}
+.u-badge--success--inverted.data-v-06cca9b7 {
+  color: #5ac725;
+}
+.u-badge--info.data-v-06cca9b7 {
+  background-color: #909399;
+}
+.u-badge--info--inverted.data-v-06cca9b7 {
+  color: #909399;
+}
+.u-badge--warning.data-v-06cca9b7 {
+  background-color: #f9ae3d;
+}
+.u-badge--warning--inverted.data-v-06cca9b7 {
+  color: #f9ae3d;
+}

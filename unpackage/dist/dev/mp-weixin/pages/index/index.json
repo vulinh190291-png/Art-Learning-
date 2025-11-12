@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "绘影",
+  "usingComponents": {
+    "u-search": "../../uni_modules/uview-plus/components/u-search/u-search",
+    "u-loading-icon": "../../uni_modules/uview-plus/components/u-loading-icon/u-loading-icon",
+    "u-empty": "../../uni_modules/uview-plus/components/u-empty/u-empty",
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button",
+    "u-collapse-item": "../../uni_modules/uview-plus/components/u-collapse-item/u-collapse-item",
+    "u-collapse": "../../uni_modules/uview-plus/components/u-collapse/u-collapse",
+    "u-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon",
+    "u-swiper": "../../uni_modules/uview-plus/components/u-swiper/u-swiper",
+    "u--text": "../../uni_modules/uview-plus/components/u--text/u--text",
+    "u-popup": "../../uni_modules/uview-plus/components/u-popup/u-popup"
+  }
+}

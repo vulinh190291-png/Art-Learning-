@@ -1,0 +1,96 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-container.data-v-16b96b71 {
+  background-color: #f3f4f6;
+  min-height: 100vh;
+}
+.loading-state.data-v-16b96b71 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 99;
+}
+.empty-state.data-v-16b96b71 {
+  padding-top: 30vh;
+}
+.scroll-view-container.data-v-16b96b71 {
+  height: 100vh;
+}
+.card.data-v-16b96b71 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  margin: 24rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.04);
+}
+.order-card.data-v-16b96b71 {
+  padding: 0;
+}
+.order-card .card-header.data-v-16b96b71 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+.order-card .card-header .order-id.data-v-16b96b71 {
+  font-size: 24rpx;
+  color: #999;
+}
+.order-card .card-header .status.data-v-16b96b71 {
+  font-size: 28rpx;
+  font-weight: 500;
+}
+.order-card .card-body.data-v-16b96b71 {
+  padding: 20rpx 0 20rpx 30rpx;
+}
+.order-card .card-body .product-list.data-v-16b96b71 {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.order-card .card-body .product-item.data-v-16b96b71 {
+  display: inline-flex;
+  margin-right: 20rpx;
+}
+.order-card .card-body .product-image.data-v-16b96b71 {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 8rpx;
+  flex-shrink: 0;
+  background-color: #f0f0f0;
+}
+.order-card .card-footer.data-v-16b96b71 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 30rpx;
+}
+.order-card .card-footer .total-price.data-v-16b96b71 {
+  font-size: 26rpx;
+  color: #666;
+}
+.order-card .card-footer .total-price .price-amount.data-v-16b96b71 {
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #333;
+}
+.order-card .card-footer .action-buttons.data-v-16b96b71 {
+  display: flex;
+  align-items: center;
+}

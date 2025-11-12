@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-textarea": "../u-textarea/u-textarea"
+  }
+}

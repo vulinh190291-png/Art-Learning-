@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "画廊",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-tabs": "../../uni_modules/uview-plus/components/u-tabs/u-tabs",
+    "u-loading-icon": "../../uni_modules/uview-plus/components/u-loading-icon/u-loading-icon",
+    "u-empty": "../../uni_modules/uview-plus/components/u-empty/u-empty",
+    "u--image": "../../uni_modules/uview-plus/components/u--image/u--image",
+    "u-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon",
+    "u-loadmore": "../../uni_modules/uview-plus/components/u-loadmore/u-loadmore",
+    "u-divider": "../../uni_modules/uview-plus/components/u-divider/u-divider",
+    "u--input": "../../uni_modules/uview-plus/components/u--input/u--input",
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button",
+    "u-popup": "../../uni_modules/uview-plus/components/u-popup/u-popup"
+  }
+}

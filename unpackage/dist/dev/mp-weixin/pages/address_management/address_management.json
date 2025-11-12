@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "地址管理",
+  "usingComponents": {
+    "u-loading-icon": "../../uni_modules/uview-plus/components/u-loading-icon/u-loading-icon",
+    "u-empty": "../../uni_modules/uview-plus/components/u-empty/u-empty",
+    "u-line": "../../uni_modules/uview-plus/components/u-line/u-line",
+    "u-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon",
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button"
+  }
+}

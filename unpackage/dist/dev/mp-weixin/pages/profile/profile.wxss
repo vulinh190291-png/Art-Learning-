@@ -1,0 +1,70 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-container.data-v-dd383ca2 {
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+.login-prompt.data-v-dd383ca2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200rpx;
+}
+.login-prompt .placeholder-img.data-v-dd383ca2 {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-bottom: 40rpx;
+}
+.login-prompt .prompt-text.data-v-dd383ca2 {
+  font-size: 30rpx;
+  color: #666;
+  margin-bottom: 40rpx;
+}
+.profile-header.data-v-dd383ca2 {
+  display: flex;
+  align-items: center;
+  padding: 40rpx;
+  background: linear-gradient(135deg, #fdf8e4, #e5c185);
+}
+.profile-header .avatar-wrapper.data-v-dd383ca2 {
+  position: relative;
+}
+.profile-header .avatar-wrapper .avatar.data-v-dd383ca2 {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  border: 4rpx solid #fff;
+}
+.profile-header .info.data-v-dd383ca2 {
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.profile-header .info .nickname.data-v-dd383ca2 {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #004343;
+}
+.profile-header .info .bio.data-v-dd383ca2 {
+  font-size: 26rpx;
+  color: #666;
+  margin-top: 10rpx;
+}
+.action-list.data-v-dd383ca2 {
+  margin: 20rpx 0;
+}
+.logout-btn-wrapper.data-v-dd383ca2 {
+  padding: 40rpx;
+}

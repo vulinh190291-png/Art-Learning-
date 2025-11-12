@@ -1,0 +1,1 @@
+<uv-image wx:if="{{d}}" u-s="{{['loading','error']}}" bindclick="{{a}}" binderror="{{b}}" bindload="{{c}}" u-i="090189d8-0" bind:__l="__l" u-p="{{d}}"><view slot="loading"><slot name="loading"></slot></view><view slot="error"><slot name="error"></slot></view></uv-image>

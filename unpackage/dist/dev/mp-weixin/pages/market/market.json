@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "易市",
+  "usingComponents": {
+    "u-search": "../../uni_modules/uview-plus/components/u-search/u-search",
+    "u-loading-icon": "../../uni_modules/uview-plus/components/u-loading-icon/u-loading-icon",
+    "u-empty": "../../uni_modules/uview-plus/components/u-empty/u-empty",
+    "u-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon"
+  }
+}

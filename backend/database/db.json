@@ -1,0 +1,1906 @@
+{
+  "art_styles": [
+    {
+      "id": 1,
+      "category": "壁画艺术",
+      "icon": "/static/icons/icon_bihua.png",
+      "sub_categories": [
+        {
+          "id": 101,
+          "name": "石窟壁画",
+          "cover_image": "/static/images/art_styles/shiku_1.jpg",
+          "introduction": "石窟壁画是绘制在石窟、洞穴墙壁上的宗教或历史主题画作，以敦煌莫高窟为代表，具有极高的艺术与历史价值。",
+          "history": "起源于古代印度的石窟寺艺术，随佛教东传进入中国，于魏晋南北朝时期开始兴盛，唐代达到艺术高峰。",
+          "features": "1. 宗教题材为主，叙事性强。\n2. 色彩浓烈，线条奔放。\n3. 与石窟建筑、彩塑融为一体，形成综合性艺术空间。",
+          "cultural_meaning": "不仅是佛教艺术的瑰宝，也反映了古代社会的经济、文化、民族交融等多个方面，是研究历史的珍贵图像资料。",
+          "representative_works": [
+            "/static/images/art_styles/shiku_1.jpg",
+            "/static/images/art_styles/shiku_2.jpg",
+            "/static/images/art_styles/shiku_3.jpg"
+          ]
+        },
+        {
+          "id": 102,
+          "name": "寺观壁画",
+          "cover_image": "/static/images/art_styles/siguan_1.jpg",
+          "introduction": "寺观壁画是绘制在佛教寺庙和道教宫观建筑墙壁上的画，内容多为宗教故事、神佛形象，是宗教艺术的重要组成部分。",
+          "history": "历史悠久，汉代已有雏形，唐宋时期壁画创作成为寺观营造的重要环节，元代的永乐宫壁画是其巅峰之作。",
+          "features": "1. 场面宏大，人物众多。\n2. 构图严谨，技法多样。\n3. 兼具宗教教化与艺术审美双重功能。",
+          "cultural_meaning": "承载着儒、释、道等多种文化思想，是研究中国宗教、哲学、民俗和绘画史的重要载体。",
+          "representative_works": [
+            "/static/images/art_styles/siguan_1.jpg",
+            "/static/images/art_styles/siguan_2.jpg",
+            "/static/images/art_styles/siguan_3.jpg"
+          ]
+        },
+        {
+          "id": 103,
+          "name": "殿堂壁画",
+          "cover_image": "/static/images/art_styles/diantang_1.jpg",
+          "introduction": "殿堂壁画指绘制于宫殿、府邸等大型建筑内部的装饰性壁画，题材广泛，彰显建筑的宏伟与主人的地位。",
+          "history": "始于周代，秦汉时期得到发展，唐代宫廷壁画技艺高超，如章怀太子墓壁画《客使图》等，体现了盛唐气象。",
+          "features": "1. 题材多样，包括仪仗、建筑、生活场景等。\n2. 政治功能与装饰功能并重。\n3. 技法精湛，设色典雅，与建筑环境高度协调。",
+          "cultural_meaning": "是古代皇家威仪和贵族生活的重要反映，为研究古代政治、礼仪、服饰、建筑等提供了直观的视觉材料。",
+          "representative_works": [
+            "/static/images/art_styles/diantang_1.jpg",
+            "/static/images/art_styles/diantang_2.jpg",
+            "/static/images/art_styles/diantang_3.jpg"
+          ]
+        },
+        {
+          "id": 104,
+          "name": "墓室壁画",
+          "cover_image": "/static/images/art_styles/mushi_1.jpg",
+          "introduction": "墓室壁画是古代墓葬中用于装饰墙壁的绘画，反映了墓主人的生前生活、社会地位以及古人对死后世界的想象。",
+          "history": "新石器时代已有雏形，兴于西汉，盛于魏晋南北朝至隋唐，宋元以后逐渐衰落，是古代“事死如事生”观念的体现。",
+          "features": "1. 内容丰富，生活气息浓厚。\n2. 空间感强，常与墓室结构相结合。\n3. 风格因时代和地域而异，具有多样性。",
+          "cultural_meaning": "为我们了解古代社会生活、风俗习惯、精神信仰打开了一扇窗口，是极为宝贵的历史与艺术遗产。",
+          "representative_works": [
+            "/static/images/art_styles/mushi_1.jpg",
+            "/static/images/art_styles/mushi_2.jpg",
+            "/static/images/art_styles/mushi_3.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "绘画艺术",
+      "icon": "/static/icons/icon_huihua.png",
+      "sub_categories": [
+        {
+          "id": 201,
+          "name": "人物画",
+          "cover_image": "/static/images/art_styles/renwu_1.jpg",
+          "introduction": "人物画是以人物形象为主要描绘对象的中国画画科，注重表现人物的精神气质和内心世界，即“传神”。",
+          "history": "战国时期已见成熟作品，魏晋顾恺之提出“传神写照”，唐代阎立本、吴道子等大家辈出，宋代以后更注重内心刻画。",
+          "features": "1. 强调“以形写神”，追求神态与气韵。\n2. 线条的运用至关重要，如“高古游丝描”、“铁线描”等。\n3. 分为工笔、写意两大风格。",
+          "cultural_meaning": "不仅记录了历史人物的形象，更承载了各个时代的审美标准、伦理观念和哲学思考，是中国文化“以人为本”思想的体现。",
+          "representative_works": [
+            "/static/images/art_styles/renwu_1.jpg",
+            "/static/images/art_styles/renwu_2.jpg",
+            "/static/images/art_styles/renwu_3.jpg"
+          ]
+        },
+        {
+          "id": 202,
+          "name": "山水画",
+          "cover_image": "/static/images/art_styles/shanshui_1.jpg",
+          "introduction": "山水画以自然山川景物为描绘对象，讲究意境的营造，体现了中国传统文化中人与自然和谐共生的哲学思想。",
+          "history": "魏晋南北朝独立成科，隋唐趋于成熟，五代、北宋达到高峰，元代以后注重笔墨情趣的表达，流派纷呈。",
+          "features": "1. 讲究“气韵生动”，追求意境。\n2. 独特的“三远”构图法（高远、深远、平远）。\n3. 笔墨技法丰富，如皴、擦、点、染。",
+          "cultural_meaning": "不仅是自然的再现，更是文人画家精神世界的寄托，是中国哲学思想和审美理想的集中体现。",
+          "representative_works": [
+            "/static/images/art_styles/shanshui_1.jpg",
+            "/static/images/art_styles/shanshui_2.jpg",
+            "/static/images/art_styles/shanshui_3.jpg"
+          ]
+        },
+        {
+          "id": 203,
+          "name": "花鸟画",
+          "cover_image": "/static/images/art_styles/huaniao_1.jpg",
+          "introduction": "花鸟画以花卉、鸟兽、鱼虫等为描绘对象，寓情于物，通过描绘自然生灵来表达作者的情感和志趣。",
+          "history": "唐代已见独立完整的花鸟画，五代出现“黄筌富贵，徐熙野逸”两大流派，宋代院体花鸟画达到鼎盛。",
+          "features": "1. 题材广泛，寓意吉祥。\n2. 工笔、写意两大表现形式。\n3. 强调“形神兼备”，追求画面的生机与情趣。",
+          "cultural_meaning": "通过对自然生命的赞美，表达了对生活的热爱和对美好品德的追求，是中国人“观物取象”思维的体现。",
+          "representative_works": [
+            "/static/images/art_styles/huaniao_1.jpg",
+            "/static/images/art_styles/huaniao_2.jpg",
+            "/static/images/art_styles/huaniao_3.jpg"
+          ]
+        },
+        {
+          "id": 204,
+          "name": "界画",
+          "cover_image": "/static/images/art_styles/jiehua_1.jpg",
+          "introduction": "界画是中国画的一种，指使用界尺等工具精确绘制建筑物、舟车、器皿等对象，追求工整、写实的效果。",
+          "history": "源于东晋，隋唐时已成熟，两宋时期达到顶峰，成为宫廷绘画的重要组成部分，元代以后逐渐式微。",
+          "features": "1. 要求造型准确，结构严谨。\n2. 线条挺拔、均匀、精细。\n3. 画面富丽堂皇，具有强烈的装饰性。",
+          "cultural_meaning": "界画是古代建筑、工程、科技的形象记录，为研究古代社会物质文明提供了宝贵的图像资料，体现了古代工匠精神和写实主义传统。",
+          "representative_works": [
+            "/static/images/art_styles/jiehua_1.jpg",
+            "/static/images/art_styles/jiehua_2.jpg",
+            "/static/images/art_styles/jiehua_3.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "瓷器",
+      "icon": "/static/icons/icon_ciqi.png",
+      "sub_categories": [
+        {
+          "id": 301,
+          "name": "汝窑",
+          "cover_image": "/static/images/art_styles/ruyao_1.jpg",
+          "introduction": "汝窑为北宋五大名窑之首，以其温润如玉的天青釉闻名于世，素有“青瓷之首，汝窑为魁”之称。",
+          "history": "烧造于北宋晚期，专为宫廷烧制，时间极短，仅二十年左右，故传世品不足百件，极为珍贵。",
+          "features": "1. 釉色天青，纯净温润。\n2. 釉面多有细小开片，称“蟹爪纹”。\n3. 器物底部有细小的“芝麻花”状支钉痕。",
+          "cultural_meaning": "代表了宋代极简主义的巅峰审美，体现了宋人对理想化自然之美的追求，在中国陶瓷史上具有至高无上的地位。",
+          "representative_works": [
+            "/static/images/art_styles/ruyao_1.jpg",
+            "/static/images/art_styles/ruyao_2.jpg",
+            "/static/images/art_styles/ruyao_3.jpg"
+          ]
+        },
+        {
+          "id": 302,
+          "name": "官窑",
+          "cover_image": "/static/images/art_styles/guanyao_1.jpg",
+          "introduction": "官窑是宋代由朝廷官方设立的窑场，其产品专供宫廷使用，器型端庄，釉色肥厚，具有典型的宫廷审美特征。",
+          "history": "分为北宋官窑和南宋官窑，前者已不可考，后者设于临安（今杭州），继承了汝窑的烧造技术。",
+          "features": "1. 釉质肥厚，呈粉青、月白色。\n2. “紫口铁足”是其典型特征。\n3. 釉面开片大小疏密不一，富有节奏感。",
+          "cultural_meaning": "体现了宋代皇家的审美趣味和礼制思想，其“金丝铁线”的开片被视为一种残缺美，蕴含了深刻的哲学意蕴。",
+          "representative_works": [
+            "/static/images/art_styles/guanyao_1.jpg",
+            "/static/images/art_styles/guanyao_2.jpg",
+            "/static/images/art_styles/guanyao_3.jpg"
+          ]
+        },
+        {
+          "id": 303,
+          "name": "哥窑",
+          "cover_image": "/static/images/art_styles/geyao_1.jpg",
+          "introduction": "哥窑是宋代五大名窑之一，以其釉面遍布的“金丝铁线”开片纹为主要特征，风格独特，古朴典雅。",
+          "history": "身份扑朔迷离，至今窑址不明，充满了传奇色彩。相传为宋代龙泉章氏兄弟之兄所烧，故名“哥窑”。",
+          "features": "1. 釉面布满大小开片，俗称“金丝铁线”。\n2. 釉色多为灰青、米黄。\n3. 器型古朴，胎色较深。",
+          "cultural_meaning": "哥窑的开片艺术将陶瓷的缺陷转化为一种独特的美学形态，被后世文人所推崇，代表了顺其自然的道家思想和审美情趣。",
+          "representative_works": [
+            "/static/images/art_styles/geyao_1.jpg",
+            "/static/images/art_styles/geyao_2.jpg",
+            "/static/images/art_styles/geyao_3.jpg"
+          ]
+        },
+        {
+          "id": 304,
+          "name": "定窑",
+          "cover_image": "/static/images/art_styles/dingyao_1.jpg",
+          "introduction": "定窑是宋代五大名窑之一，以烧造白瓷著称，其产品胎质坚密、釉色洁白，并善于运用印花、刻花等装饰技法。",
+          "history": "始烧于唐，盛于北宋，窑址在今河北曲阳。定窑白瓷一度为宫廷用瓷，影响深远。",
+          "features": "1. 瓷质洁白，釉色白中泛黄，有“泪痕”现象。\n2. 装饰技法以印花、刻花、划花为主，图案精美。\n3. 多采用覆烧工艺，口沿无釉，称“芒口”。",
+          "cultural_meaning": "定窑印花题材丰富，反映了宋代社会生活的方方面面，其典雅的白瓷风格对后世影响极大，是中华白瓷体系的杰出代表。",
+          "representative_works": [
+            "/static/images/art_styles/dingyao_1.jpg",
+            "/static/images/art_styles/dingyao_2.jpg",
+            "/static/images/art_styles/dingyao_3.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "纹饰",
+      "icon": "/static/icons/icon_wenshi.png",
+      "sub_categories": [
+        {
+          "id": 401,
+          "name": "忍冬纹",
+          "cover_image": "/static/images/art_styles/rendong_1.jpg",
+          "introduction": "忍冬纹是一种生命力顽强的植物纹样，寓意生生不息、坚韧不拔，在佛教艺术中尤为常见。",
+          "history": "起源于古希腊、古罗马，由犍陀罗艺术传入中国，魏晋南北朝时期盛行，广泛用于石窟、瓷器、铜镜等装饰。",
+          "features": "1. 以三叶或多叶的卷草形式出现。\n2. 线条流畅，富有动感。\n3. 结构呈“S”形，具有很强的连续性和适应性。",
+          "cultural_meaning": "作为佛教艺术的代表性纹样，象征着灵魂不灭和轮回再生。其顽强的生命力寓意也使其成为中华民族坚韧品格的象征。",
+          "representative_works": [
+            "/static/images/art_styles/rendong_1.jpg",
+            "/static/images/art_styles/rendong_2.jpg",
+            "/static/images/art_styles/rendong_3.jpg"
+          ]
+        },
+        {
+          "id": 402,
+          "name": "云雷纹",
+          "cover_image": "/static/images/art_styles/yunlei_1.jpg",
+          "introduction": "云雷纹是青铜器上常见的纹样，由回旋的线条构成，形似天上的云和雷，象征着威严与神秘。",
+          "history": "最早见于新石器时代晚期的陶器上，盛行于商周时期的青铜器，常作为地纹来衬托主题纹饰。",
+          "features": "1. 由连续的回旋形线条构成。\n2. 有圆形、方形等多种变体。\n3. 构图饱满，节奏感强。",
+          "cultural_meaning": "云和雷是古人崇拜的自然力量，云雷纹体现了先民对自然的敬畏之心，是古代宗教和礼制思想的物化表现。",
+          "representative_works": [
+            "/static/images/art_styles/yunlei_1.jpg",
+            "/static/images/art_styles/yunlei_2.jpg",
+            "/static/images/art_styles/yunlei_3.jpg"
+          ]
+        },
+        {
+          "id": 403,
+          "name": "方胜纹",
+          "cover_image": "/static/images/art_styles/fangsheng_1.jpg",
+          "introduction": "方胜纹是由两个菱形压角相叠组成的几何纹样，形似古代首饰“方胜”，寓意同心相连、吉祥如意。",
+          "history": "起源很早，在汉代的织锦和铜镜上已很流行，宋元明清时期在建筑、家具、瓷器上被广泛应用。",
+          "features": "1. 基本形态为两个菱形叠压。\n2. 结构稳定，可单独或连续使用。\n3. 具有简洁的几何美感。",
+          "cultural_meaning": "方胜纹的“同心”结构使其成为爱情和友谊的象征，寓意永结同心。同时，它也是道教的八宝之一，具有吉祥、长寿的寓意。",
+          "representative_works": [
+            "/static/images/art_styles/fangsheng_1.jpg",
+            "/static/images/art_styles/fangsheng_2.jpg",
+            "/static/images/art_styles/fangsheng_3.jpg"
+          ]
+        },
+        {
+          "id": 404,
+          "name": "如意纹",
+          "cover_image": "/static/images/art_styles/ruyi_1.jpg",
+          "introduction": "如意纹又称“如意云纹”，是由祥云或灵芝演变而来的装饰纹样，是中国传统的吉祥图案，寓意万事顺利、称心如意。",
+          "history": "起源于魏晋时期，成熟于唐代，明清时期达到鼎盛，成为最受欢迎的吉祥纹样之一，应用极为广泛。",
+          "features": "1. 头部形似祥云、灵芝，尾部卷曲。\n2. 形态优美，线条流畅。\n3. 组合灵活，可构成复杂的“如意云头”图案。",
+          "cultural_meaning": "“如意”二字本身就包含了人们对美好生活的向往，如意纹是中国吉祥文化的核心符号，象征着福气、权力和顺遂。",
+          "representative_works": [
+            "/static/images/art_styles/ruyi_1.jpg",
+            "/static/images/art_styles/ruyi_2.jpg",
+            "/static/images/art_styles/ruyi_3.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "刺绣",
+      "icon": "/static/icons/icon_cixiu.png",
+      "sub_categories": [
+        {
+          "id": 501,
+          "name": "苏绣",
+          "cover_image": "/static/images/art_styles/suxiu_1.jpg",
+          "introduction": "苏绣是四大名绣之一，以其针法精细、色彩雅洁、图案秀丽而闻名，具有“平、齐、和、光、顺、匀”的特点。",
+          "history": "发源于苏州，有两千多年历史。宋代已具相当规模，明代形成独特风格，清代达到顶峰。",
+          "features": "1. 针法多变，表现力丰富。\n2. 擅长表现山水、人物、动物等，尤以双面绣为绝技。\n3. 色彩过渡自然，富有立体感。",
+          "cultural_meaning": "苏绣是江南文化精巧雅致的代表，其高超的技艺和艺术性使其成为国礼，是中国传统手工艺的杰出典范。",
+          "representative_works": [
+            "/static/images/art_styles/suxiu_1.jpg",
+            "/static/images/art_styles/suxiu_2.jpg",
+            "/static/images/art_styles/suxiu_3.jpg"
+          ]
+        },
+        {
+          "id": 502,
+          "name": "湘绣",
+          "cover_image": "/static/images/art_styles/xiangxiu_1.jpg",
+          "introduction": "湘绣是中国四大名绣之一，以其形象生动、设色鲜明、对比强烈的特点著称，尤其擅长表现狮、虎等动物题材。",
+          "history": "起源于湖南长沙，从民间刺绣发展而来。清末民初，在吸收苏绣和粤绣技艺的基础上，形成了自身特色。",
+          "features": "1. 构图大气，色彩浓郁。\n2. 独创“鬅毛针”，使动物毛发具有质感。\n3. 讲究“以针代笔，以线晕色”。",
+          "cultural_meaning": "湘绣体现了湖湘文化热烈、奔放的性格特征，其虎虎生威的狮虎题材作品，展现了中华民族的雄健气魄。",
+          "representative_works": [
+            "/static/images/art_styles/xiangxiu_1.jpg",
+            "/static/images/art_styles/xiangxiu_2.jpg",
+            "/static/images/art_styles/xiangxiu_3.jpg"
+          ]
+        },
+        {
+          "id": 503,
+          "name": "蜀绣",
+          "cover_image": "/static/images/art_styles/shuxiu_1.jpg",
+          "introduction": "蜀绣又称“川绣”，以其针法严谨、车拧匀称、色彩明快著称，具有浓郁的地方色彩。",
+          "history": "起源于四川，西汉时期已有记载。清代形成了“衣、被、枕、帘”等日用品刺绣的特色。",
+          "features": "1. 针脚整齐，线条光亮。\n2. 题材多为芙蓉鲤鱼、公鸡牡丹等民间喜闻乐见之物。\n3. 常用“晕针”来表现色彩的过渡。",
+          "cultural_meaning": "蜀绣充满了生活的热情和气息，是巴蜀地区民俗文化和审美情趣的生动体现，具有鲜明的地域特色。",
+          "representative_works": [
+            "/static/images/art_styles/shuxiu_1.jpg",
+            "/static/images/art_styles/shuxiu_2.jpg",
+            "/static/images/art_styles/shuxiu_3.jpg"
+          ]
+        },
+        {
+          "id": 504,
+          "name": "粤绣",
+          "cover_image": "/static/images/art_styles/yuexiu_1.jpg",
+          "introduction": "粤绣是广绣和潮绣的总称，以其构图饱满、色彩富丽、装饰性强而闻名，常用金银线作绣，显得金碧辉煌。",
+          "history": "起源于广东，唐代已有较高水平。清代通过海上丝绸之路远销海外，深受国际市场欢迎。",
+          "features": "1. 构图繁而不乱，色彩对比强烈。\n2. 大量使用金银线，效果富丽堂皇。\n3. 题材多为百鸟朝凤、龙凤等吉祥图案。",
+          "cultural_meaning": "粤绣是岭南文化开放、包容、重商特性的体现，其华丽的风格反映了人们对富足和吉祥的追求，是中西文化交流的艺术见证。",
+          "representative_works": [
+            "/static/images/art_styles/yuexiu_1.jpg",
+            "/static/images/art_styles/yuexiu_2.jpg",
+            "/static/images/art_styles/yuexiu_3.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "剪纸",
+      "icon": "/static/icons/icon_jianzhi.png",
+      "sub_categories": [
+        {
+          "id": 601,
+          "name": "阴刻",
+          "cover_image": "/static/images/art_styles/yinke_1.jpg",
+          "introduction": "剪纸中的阴刻是指刻去图案的轮廓线，保留图案本身，使得主体部分是实心的，也称“剪影”。",
+          "history": "剪纸历史悠久，阴刻作为其基本技法之一，贯穿了剪纸艺术发展的始终，常见于北方粗犷风格的剪纸中。",
+          "features": "1. 主体为面，线条为虚。\n2. 风格浑厚、庄重、稳健。\n3. 适合表现大块面的形象，视觉冲击力强。",
+          "cultural_meaning": "阴刻剪纸的质朴风格最能体现民间艺术的本色，其“面”的造型方式蕴含了虚实相生的中国哲学思想。",
+          "representative_works": [
+            "/static/images/art_styles/yinke_1.jpg",
+            "/static/images/art_styles/yinke_2.jpg",
+            "/static/images/art_styles/yinke_3.jpg"
+          ]
+        },
+        {
+          "id": 602,
+          "name": "阳刻",
+          "cover_image": "/static/images/art_styles/yangke_1.jpg",
+          "introduction": "剪纸中的阳刻是指刻去图案之外的空白部分，保留图案的线条，使得主体部分是镂空的，也称“线条剪纸”。",
+          "history": "阳刻与阴刻相伴而生，是剪纸艺术的核心技法。南方剪纸多以阳刻为主，追求精巧和秀丽。",
+          "features": "1. 主体为线，线条相连。\n2. 风格纤细、玲珑、剔透。\n3. 适合表现复杂的细节和装饰性的图案。",
+          "cultural_meaning": "阳刻剪纸的“线线相连”体现了中国艺术对连贯性和整体感的追求，其玲珑剔透的美感展现了中华民族精巧的工艺水平。",
+          "representative_works": [
+            "/static/images/art_styles/yangke_1.jpg",
+            "/static/images/art_styles/yangke_2.jpg",
+            "/static/images/art_styles/yangke_3.jpg"
+          ]
+        },
+        {
+          "id": 603,
+          "name": "阴阳结合",
+          "cover_image": "/static/images/art_styles/yinyang_jiehe_1.jpg",
+          "introduction": "阴阳结合是将阴刻与阳刻技法结合在一幅作品中，通过面对比、线面对比，使画面更富于变化和表现力。",
+          "history": "随着剪纸艺术的发展，单纯的阴刻或阳刻已不能满足复杂的表现需求，阴阳结合的技法应运而生并日趋成熟。",
+          "features": "1. 虚实相生，层次丰富。\n2. 对比强烈，主题突出。\n3. 极大地丰富了剪纸的艺术语言。",
+          "cultural_meaning": "阴阳结合的剪纸是“道”家阴阳哲学思想最直观的艺术体现，反映了中国人对立统一、和谐共生的世界观。",
+          "representative_works": [
+            "/static/images/art_styles/yinyang_jiehe_1.jpg",
+            "/static/images/art_styles/yinyang_jiehe_2.jpg",
+            "/static/images/art_styles/yinyang_jiehe_3.jpg"
+          ]
+        },
+        {
+          "id": 604,
+          "name": "撕纸",
+          "cover_image": "/static/images/art_styles/sizhi_1.jpg",
+          "introduction": "撕纸艺术不借助剪刀或刻刀，完全通过手撕来创作，作品风格质朴、粗犷，具有独特的偶然性和肌理感。",
+          "history": "撕纸是一种古老的民间艺术形式，源于生活，具有很强的即兴创作特征，是剪纸艺术的一个独特分支。",
+          "features": "1. 边缘有毛边，肌理独特。\n2. 风格质朴，具有偶然性和唯一性。\n3. 更注重神似而非形似。",
+          "cultural_meaning": "撕纸艺术返璞归真，摆脱了工具的束缚，体现了“大巧若拙”的艺术境界和追求天人合一、自然天成的创作理念。",
+          "representative_works": [
+            "/static/images/art_styles/sizhi_1.jpg",
+            "/static/images/art_styles/sizhi_2.jpg",
+            "/static/images/art_styles/sizhi_3.jpg"
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "zhangsan",
+      "password": "123",
+      "nickname": "观山海",
+      "avatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+      "bio": "一位热爱中国传统艺术的开发者。",
+      "achievements": [],
+      "addresses": [
+        {
+          "id": 1,
+          "name": "阿萨姆",
+          "phone": "12345678999",
+          "region": "香港特别行政区 香港特别行政区 油尖旺区",
+          "detail": "弥敦道666号",
+          "isDefault": true
+        },
+        {
+          "id": 2,
+          "name": "潮纸模",
+          "phone": "12345678901",
+          "region": "广东省 深圳市 南山区",
+          "detail": "弥敦道666号",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "lisi",
+      "password": "456",
+      "nickname": "听雨轩主",
+      "avatar": "",
+      "bio": "искусство, τέχνη, ars.",
+      "achievements": [],
+      "addresses": []
+    },
+    {
+      "id": 3,
+      "username": "czm",
+      "password": "123",
+      "nickname": "曹子",
+      "avatar": "http://localhost:3000/uploads/avatars/1752338943725-jiehua_2.jpg",
+      "bio": "大家好",
+      "achievements": [],
+      "addresses": [
+        {
+          "id": 2,
+          "name": "夫妻",
+          "phone": "12435436547",
+          "region": "香港特别行政区 香港特别行政区 油尖旺区",
+          "detail": "弥敦道666号",
+          "isDefault": false
+        },
+        {
+          "id": 3,
+          "name": "草",
+          "phone": "12345678906",
+          "region": "香港特别行政区 香港特别行政区 油尖旺区",
+          "detail": "弥敦道666号",
+          "isDefault": false
+        },
+        {
+          "id": 4,
+          "name": "曹子墨",
+          "phone": "12345678971",
+          "region": "重庆市 重庆市 北碚区",
+          "detail": "云华路",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "username": "haha",
+      "password": "123",
+      "nickname": "haha",
+      "avatar": "http://localhost:3000/uploads/avatars/1752378061475-renwu_3.jpg",
+      "bio": "我是来测试的。。。",
+      "achievements": [],
+      "addresses": [
+        {
+          "id": 1,
+          "name": "曹子憋",
+          "phone": "18300663371",
+          "region": "香港特别行政区 香港特别行政区 油尖旺区",
+          "detail": "弥敦道666号",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "username": "chezaimian",
+      "password": "123",
+      "nickname": "车zai面",
+      "avatar": "http://localhost:3000/uploads/avatars/1752389835790-suxiu_2.jpg",
+      "bio": "这是测试用的账号",
+      "achievements": [],
+      "addresses": [
+        {
+          "id": 1,
+          "name": "曹子墨",
+          "phone": "12345678901",
+          "region": "重庆市 重庆市 北碚区",
+          "detail": "云华路",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "username": "ceshi",
+      "password": "123",
+      "nickname": "测试",
+      "avatar": "",
+      "bio": "这位用户很神秘，什么也没留下...",
+      "achievements": []
+    },
+    {
+      "id": 7,
+      "username": "hanfangjun",
+      "password": "123",
+      "nickname": "韩方俊",
+      "avatar": "http://localhost:3000/uploads/avatars/1762913619865-ä¹çç¬.jpg",
+      "bio": "为什么不学JAVA",
+      "achievements": [],
+      "addresses": [
+        {
+          "id": 1,
+          "name": "韩方俊",
+          "phone": "11122233344",
+          "region": "重庆市 重庆市 北碚区",
+          "detail": "云华路",
+          "isDefault": false
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": 15,
+      "userId": 7,
+      "userNickname": "韩方俊",
+      "userAvatar": "",
+      "title": "自己绣的",
+      "description": "好看吗",
+      "imageUrl": "http://localhost:3000/uploads/posts/1757985985901-20170817041930_69194.jpg",
+      "artCategory": "刺绣",
+      "createdAt": 1757985985919,
+      "likes": 0,
+      "likedBy": [],
+      "collectionCount": 1,
+      "collectedBy": [
+        7
+      ],
+      "comments": [
+        {
+          "commentId": 1,
+          "userId": 7,
+          "userNickname": "韩方俊",
+          "userAvatar": "",
+          "content": "怎么没人理我",
+          "createdAt": 1757986004093
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "userId": 5,
+      "userNickname": "车zai面",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752389835790-suxiu_2.jpg",
+      "title": "美丽纹饰",
+      "description": "历史悠久",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752390823396-yunlei_1.jpg",
+      "artCategory": "纹饰",
+      "createdAt": 1752390823402,
+      "likes": 0,
+      "likedBy": [],
+      "collectionCount": 0,
+      "collectedBy": [],
+      "comments": []
+    },
+    {
+      "id": 13,
+      "userId": 5,
+      "userNickname": "车zai面",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752389835790-suxiu_2.jpg",
+      "title": "山",
+      "description": "壮美河山",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752390780440-shanshui_3.jpg",
+      "artCategory": "绘画艺术",
+      "createdAt": 1752390780443,
+      "likes": 2,
+      "likedBy": [
+        5,
+        7
+      ],
+      "collectionCount": 0,
+      "collectedBy": [],
+      "comments": [
+        {
+          "commentId": 1,
+          "userId": 7,
+          "userNickname": "韩方俊",
+          "userAvatar": "",
+          "content": "太好看了",
+          "createdAt": 1757986057431
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "userId": 1,
+      "userNickname": "观山海",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+      "title": "大熊猫",
+      "description": "可爱的国宝",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752389316627-shuxiu_1.jpg",
+      "artCategory": "刺绣",
+      "createdAt": 1752389316629,
+      "likes": 2,
+      "likedBy": [
+        1,
+        5
+      ],
+      "collectionCount": 0,
+      "collectedBy": [],
+      "comments": [
+        {
+          "commentId": 1,
+          "userId": 5,
+          "userNickname": "车zai面",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752389835790-suxiu_2.jpg",
+          "content": "可爱的大熊猫啊",
+          "createdAt": 1752390334938
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "userNickname": "观山海",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+      "title": "杜甫",
+      "description": "八月秋高",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752389281780-renwu_1.jpg",
+      "artCategory": "人物画",
+      "createdAt": 1752389281784,
+      "likes": 1,
+      "likedBy": [
+        1
+      ],
+      "collectionCount": 0,
+      "collectedBy": [],
+      "comments": []
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "userNickname": "观山海",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+      "title": "鱼🐟",
+      "description": "这是鱼",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752389089133-suxiu_3.jpg",
+      "artCategory": "刺绣",
+      "createdAt": 1752389089140,
+      "likes": 1,
+      "likedBy": [
+        1
+      ],
+      "collectionCount": 0,
+      "collectedBy": [],
+      "comments": []
+    },
+    {
+      "id": 1,
+      "userId": 1,
+      "userNickname": "观山海",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752158632207-pdx.jpg",
+      "title": "logo设计",
+      "description": "这是我为网站设计的logo",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752159706197-logo.png",
+      "artCategory": "壁画艺术",
+      "createdAt": 1752159706210,
+      "likes": 0,
+      "comments": [],
+      "likedBy": [],
+      "collectionCount": 0,
+      "collectedBy": []
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "userNickname": "观山海",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+      "title": "小蜗版头像",
+      "description": "海绵宝宝的小宠物小窝也在敲代码",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752160115170-xw.jpg",
+      "artCategory": "墓室壁画",
+      "createdAt": 1752160115174,
+      "likes": 1,
+      "comments": [],
+      "likedBy": [
+        1
+      ],
+      "collectionCount": 0,
+      "collectedBy": []
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "userNickname": "观山海",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+      "title": "海绵宝宝",
+      "description": "海绵宝宝敲代码",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752160353692-hmbb.jpg",
+      "artCategory": "寺观壁画",
+      "createdAt": 1752160353694,
+      "likes": 2,
+      "comments": [
+        {
+          "commentId": 4,
+          "userId": 7,
+          "userNickname": "韩方俊",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1762913619865-ä¹çç¬.jpg",
+          "content": "爱让谁憔悴",
+          "createdAt": 1762914034685
+        },
+        {
+          "commentId": 3,
+          "userId": 7,
+          "userNickname": "韩方俊",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1762913619865-ä¹çç¬.jpg",
+          "content": "分手伤了谁",
+          "createdAt": 1762914019487
+        },
+        {
+          "commentId": 1,
+          "userId": 1,
+          "userNickname": "观山海",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+          "content": "欢迎大家来评论啊",
+          "createdAt": 1752161173766
+        },
+        {
+          "commentId": 2,
+          "userId": 1,
+          "userNickname": "观山海",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+          "content": "让你再回味，自古醉人人自醉",
+          "createdAt": 1752162432386
+        }
+      ],
+      "likedBy": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "userNickname": "曹子",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752296827037-xw.jpg",
+      "title": "花鸟",
+      "description": "大家觉得这副花鸟画怎么样呢？",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752296886815-huaniao_2.jpg",
+      "artCategory": "花鸟画",
+      "createdAt": 1752296886825,
+      "likes": 1,
+      "comments": [],
+      "likedBy": [
+        3
+      ],
+      "collectionCount": 1,
+      "collectedBy": [
+        3
+      ]
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "userNickname": "曹子",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752296827037-xw.jpg",
+      "title": "壁画",
+      "description": "",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752302506881-diantang_1.jpg",
+      "artCategory": "殿堂壁画",
+      "createdAt": 1752302506922,
+      "likes": 2,
+      "comments": [
+        {
+          "commentId": 1,
+          "userId": 3,
+          "userNickname": "曹子墨",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752296827037-xw.jpg",
+          "content": "4",
+          "createdAt": 1752309683152
+        },
+        {
+          "commentId": 2,
+          "userId": 3,
+          "userNickname": "曹子墨",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752296827037-xw.jpg",
+          "content": "5",
+          "createdAt": 1752309688341
+        }
+      ],
+      "likedBy": [
+        3,
+        1
+      ],
+      "collectionCount": 0,
+      "collectedBy": []
+    },
+    {
+      "id": 7,
+      "userId": 3,
+      "userNickname": "曹子",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752296827037-xw.jpg",
+      "title": "蜀绣",
+      "description": "",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752304361533-shuxiu_3.jpg",
+      "artCategory": "蜀绣",
+      "createdAt": 1752304361545,
+      "likes": 2,
+      "comments": [
+        {
+          "commentId": 6,
+          "userId": 1,
+          "userNickname": "观山海",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+          "content": "明天会更好",
+          "createdAt": 1752388558202
+        },
+        {
+          "commentId": 5,
+          "userId": 1,
+          "userNickname": "观山海",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+          "content": "加油",
+          "createdAt": 1752388551186
+        },
+        {
+          "commentId": 4,
+          "userId": 1,
+          "userNickname": "观山海",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+          "content": "累死了",
+          "createdAt": 1752388546524
+        },
+        {
+          "commentId": 1,
+          "userId": 3,
+          "userNickname": "曹子墨",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752296827037-xw.jpg",
+          "content": "好看",
+          "createdAt": 1752305047549
+        },
+        {
+          "commentId": 2,
+          "userId": 3,
+          "userNickname": "曹子墨",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752296827037-xw.jpg",
+          "content": "太好看了",
+          "createdAt": 1752305055096
+        },
+        {
+          "commentId": 3,
+          "userId": 3,
+          "userNickname": "曹子墨",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752296827037-xw.jpg",
+          "content": "如何呢，又能怎",
+          "createdAt": 1752307167220
+        }
+      ],
+      "likedBy": [
+        3,
+        1
+      ],
+      "collectedBy": [
+        3,
+        1
+      ],
+      "collectionCount": 2
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "userNickname": "观山海",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+      "title": "瓷器",
+      "description": "",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752306097354-geyao_2.jpg",
+      "artCategory": "定窑",
+      "createdAt": 1752306097359,
+      "likes": 1,
+      "comments": [],
+      "likedBy": [
+        1
+      ],
+      "collectionCount": 0,
+      "collectedBy": []
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "userNickname": "观山海",
+      "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+      "title": "纹饰",
+      "description": "",
+      "imageUrl": "http://localhost:3000/uploads/posts/1752306122607-fangsheng_3.jpg",
+      "artCategory": "方胜纹",
+      "createdAt": 1752306122620,
+      "likes": 2,
+      "comments": [
+        {
+          "commentId": 3,
+          "userId": 7,
+          "userNickname": "韩方俊",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1762913619865-ä¹çç¬.jpg",
+          "content": "好看的纹饰",
+          "createdAt": 1762913993675
+        },
+        {
+          "commentId": 2,
+          "userId": 7,
+          "userNickname": "韩方俊",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1762913619865-ä¹çç¬.jpg",
+          "content": "一股活人味的头像",
+          "createdAt": 1762913982149
+        },
+        {
+          "commentId": 1,
+          "userId": 4,
+          "userNickname": "haha",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752378061475-renwu_3.jpg",
+          "content": "haha",
+          "createdAt": 1752378152646
+        }
+      ],
+      "likedBy": [
+        4,
+        1
+      ],
+      "collectionCount": 1,
+      "collectedBy": [
+        4
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "中国山水画入门：笔墨意趣",
+      "instructor": "李清源",
+      "coverImage": "/static/course/course_1.png",
+      "price": 0,
+      "type": "free",
+      "studentCount": 1204,
+      "description": "本课程将带你从零开始，学习山水画的基础笔法、构图与意境营造，领略东方美学的独特魅力。",
+      "outline": [
+        {
+          "id": 101,
+          "title": "第一章：工具与材料",
+          "content": "讲解文房四宝的选择与保养。"
+        },
+        {
+          "id": 102,
+          "title": "第二章：基础笔墨",
+          "content": "演示中锋、侧锋、提按、顿挫。"
+        },
+        {
+          "id": 103,
+          "title": "第三章：山石画法",
+          "content": "学习披麻皴、斧劈皴等基本皴法。"
+        },
+        {
+          "id": 104,
+          "title": "第四章：树木画法",
+          "content": "演示不同姿态的树木画法。"
+        },
+        {
+          "id": 105,
+          "title": "第五章：构图与意境",
+          "content": "解析高远、深远、平远构图法。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "李清源",
+        "title": "资深国画导师",
+        "avatar": "/static/logo.png",
+        "bio": "从事国画教育20年，擅长山水、花鸟，其作品多次在国内获奖。"
+      }
+    },
+    {
+      "id": 2,
+      "title": "青花瓷鉴赏与历史（进阶课）",
+      "instructor": "赵明诚",
+      "coverImage": "/static/course/course_2.png",
+      "price": 199,
+      "type": "paid",
+      "studentCount": 352,
+      "description": "深入解析元、明、清三代青花瓷的器型、纹饰与烧造工艺，带你成为真正的青花瓷鉴赏行家。",
+      "outline": [
+        {
+          "id": 201,
+          "title": "第一章：元青花的雄浑之美",
+          "content": "解析元青花的发色、胎土与经典器型。"
+        },
+        {
+          "id": 202,
+          "title": "第二章：明永宣的巅峰时代",
+          "content": "详解“苏麻离青”料与“永宣”官窑的特征。"
+        },
+        {
+          "id": 203,
+          "title": "第三章：明中晚期的演变",
+          "content": "探讨“嘉万”时期青花风格的转变。"
+        },
+        {
+          "id": 204,
+          "title": "第四章：清三代的集大成",
+          "content": "赏析“康雍乾”三代青花的技术与艺术成就。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "赵明诚",
+        "title": "古陶瓷研究学者",
+        "avatar": "/static/logo.png",
+        "bio": "知名博物馆特邀研究员，专注于古陶瓷鉴定与研究，出版多部学术专著。"
+      }
+    },
+    {
+      "id": 3,
+      "title": "书法入门：永字八法与楷书结构",
+      "instructor": "王羲之（助教）",
+      "coverImage": "/static/course/course_3.png",
+      "price": 0,
+      "type": "free",
+      "studentCount": 2588,
+      "description": "从握笔、运笔开始，通过“永字八法”剖析汉字笔画的奥秘，系统学习楷书的间架结构，为你打下坚实书法基础。",
+      "outline": [
+        {
+          "id": 301,
+          "title": "第一章：文房四宝的选择",
+          "content": "讲解笔墨纸砚的特性与挑选方法。"
+        },
+        {
+          "id": 302,
+          "title": "第二章：执笔与运笔",
+          "content": "学习正确的执笔姿势与基础运笔技巧。"
+        },
+        {
+          "id": 303,
+          "title": "第三章：永字八法精讲",
+          "content": "通过“永”字学习点、横、竖、钩、提、撇、捺的写法。"
+        },
+        {
+          "id": 304,
+          "title": "第四章：楷书部首与结构",
+          "content": "分析常见部首的写法与汉字的间架结构。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "王羲之（助教）",
+        "title": "AI书法助教",
+        "avatar": "/static/logo.png",
+        "bio": "由绘影AI实验室开发，集历代书法名家之长。"
+      }
+    },
+    {
+      "id": 4,
+      "title": "诗词格律与创作：吟咏风雅",
+      "instructor": "苏子瞻",
+      "coverImage": "/static/course/course_4.png",
+      "price": 129,
+      "type": "paid",
+      "studentCount": 890,
+      "description": "系统学习近体诗与词的格律、平仄、对仗与用韵，结合名篇赏析，引导你进行自己的诗词创作。",
+      "outline": [
+        {
+          "id": 401,
+          "title": "第一章：诗词的韵律之美",
+          "content": "讲解古诗词的音乐性与节奏感。"
+        },
+        {
+          "id": 402,
+          "title": "第二章：平仄与格律基础",
+          "content": "学习四声、平仄，掌握近体诗的基本格律。"
+        },
+        {
+          "id": 403,
+          "title": "第三章：律诗的对仗艺术",
+          "content": "分析工对、宽对、流水对等对仗技巧。"
+        },
+        {
+          "id": 404,
+          "title": "第四章：词牌的结构与填词技巧",
+          "content": "以《浣溪沙》、《念奴娇》为例，学习填词方法。"
+        },
+        {
+          "id": 405,
+          "title": "第五章：创作实践与赏析",
+          "content": "布置创作任务，并赏析优秀学员作品。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "苏子瞻",
+        "title": "古典文学博士",
+        "avatar": "/static/logo.png",
+        "bio": "高校古典文学专业教授，致力于诗词的普及与教育，著有《诗词格律详解》。"
+      }
+    },
+    {
+      "id": 5,
+      "title": "中国古典园林艺术鉴赏",
+      "instructor": "计成",
+      "coverImage": "/static/course/course_5.png",
+      "price": 99,
+      "type": "paid",
+      "studentCount": 615,
+      "description": "漫步于苏州园林的亭台楼阁，解析“虽由人作，宛自天开”的设计哲学，学会欣赏叠山、理水、建筑与植物配置的精妙。",
+      "outline": [
+        {
+          "id": 501,
+          "title": "第一章：园林艺术概论",
+          "content": "讲解中国古典园林的历史与主要流派。"
+        },
+        {
+          "id": 502,
+          "title": "第二章：步移景异：空间布局",
+          "content": "学习漏窗、月洞门、廊道等如何组织空间。"
+        },
+        {
+          "id": 503,
+          "title": "第三章：无画处皆成妙境：意境营造",
+          "content": "探讨园林中的诗情画意与文学典故。"
+        },
+        {
+          "id": 504,
+          "title": "第四章：四大名园赏析",
+          "content": "分别导览拙政园、留园、颐和园、承德避暑山庄。"
+        },
+        {
+          "id": 505,
+          "title": "第五章：现代生活中的园林美学",
+          "content": "探讨如何在现代家居中运用中式园林元素。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "计成",
+        "title": "园林设计师",
+        "avatar": "/static/logo.png",
+        "bio": "当代著名园林设计师，致力于传承与创新中国古典园林艺术，主持设计多个知名中式园林项目。"
+      }
+    },
+    {
+      "id": 6,
+      "title": "茶道美学：从入门到精通",
+      "instructor": "陆羽",
+      "coverImage": "/static/course/course_6.png",
+      "price": 0,
+      "type": "free",
+      "studentCount": 3210,
+      "description": "学习六大茶类的基础知识、识茶、泡茶技巧与品茗礼仪，在一方茶席间，感悟“和、敬、清、寂”的东方智慧。",
+      "outline": [
+        {
+          "id": 601,
+          "title": "第一章：中国茶文化简史",
+          "content": "从神农尝百草到茶马古道。"
+        },
+        {
+          "id": 602,
+          "title": "第二章：六大茶类风味轮",
+          "content": "详解绿茶、红茶、乌龙茶等的区别与品鉴方法。"
+        },
+        {
+          "id": 603,
+          "title": "第三章：盖碗与紫砂壶冲泡法",
+          "content": "演示两种主流冲泡手法的步骤与要点。"
+        },
+        {
+          "id": 604,
+          "title": "第四章：茶席设计与美学",
+          "content": "学习如何布置一个有美感的茶席空间。"
+        },
+        {
+          "id": 605,
+          "title": "第五章：茶与健康",
+          "content": "探讨不同茶叶的养生功效。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "陆羽",
+        "title": "国家一级评茶师",
+        "avatar": "/static/logo.png",
+        "bio": "茶文化推广者，拥有二十余年事茶经验，创立个人茶学工作室，倡导“生活茶”美学。"
+      }
+    },
+    {
+      "id": 7,
+      "title": "古琴入门：指尖上的千年回响",
+      "instructor": "伯牙",
+      "coverImage": "/static/course/course_7.png",
+      "price": 249,
+      "type": "paid",
+      "studentCount": 488,
+      "description": "从古琴的构造、历史讲起，教授基础的左右手指法、识减字谱，并能独立弹奏《仙翁操》、《阳关三叠》等入门名曲。",
+      "outline": [
+        {
+          "id": 701,
+          "title": "第一章：认识古琴",
+          "content": "古琴的结构、历史与文化地位。"
+        },
+        {
+          "id": 702,
+          "title": "第二章：基础指法与音色",
+          "content": "学习“勾、剔、抹、挑”等基本指法。"
+        },
+        {
+          "id": 703,
+          "title": "第三章：减字谱的奥秘",
+          "content": "如何识读古琴独有的减字谱。"
+        },
+        {
+          "id": 704,
+          "title": "第四章：入门琴曲精讲",
+          "content": "逐句教学《仙翁操》。"
+        },
+        {
+          "id": 705,
+          "title": "第五章：琴与文人精神",
+          "content": "探讨古琴在中国文人生活中的意义。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "伯牙",
+        "title": "古琴演奏家",
+        "avatar": "/static/logo.png",
+        "bio": "非物质文化遗产（古琴艺术）传承人，其演奏风格清和淡远，深得琴道精髓。"
+      }
+    },
+    {
+      "id": 8,
+      "title": "篆刻艺术：方寸之间的乾坤",
+      "instructor": "吴昌硕（助教）",
+      "coverImage": "/static/course/course_8.png",
+      "price": 188,
+      "type": "paid",
+      "studentCount": 260,
+      "description": "了解篆刻的历史与流派，学习篆法、章法、刀法，亲手在石料上完成从设计印稿到奏刀的全过程，体验金石之味。",
+      "outline": [
+        {
+          "id": 801,
+          "title": "第一章：篆刻源流与工具",
+          "content": "介绍印章历史与篆刻所需工具。"
+        },
+        {
+          "id": 802,
+          "title": "第二章：篆法与印稿设计",
+          "content": "学习小篆的基本写法与如何在印面上布局。"
+        },
+        {
+          "id": 803,
+          "title": "第三章：冲刀与切刀刀法",
+          "content": "演示两种核心刀法的技巧。"
+        },
+        {
+          "id": 804,
+          "title": "第四章：章法布局的奥秘",
+          "content": "学习朱白、疏密、挪让等布局原则。"
+        },
+        {
+          "id": 805,
+          "title": "第五章：边款与钤印",
+          "content": "讲解边款的刻法与如何正确使用印泥。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "吴昌硕（助教）",
+        "title": "金石学AI研究员",
+        "avatar": "/static/logo.png",
+        "bio": "结合大数据与图像识别技术，解析历代名家篆刻风格，为学员提供个性化指导。"
+      }
+    },
+    {
+      "id": 9,
+      "title": "京剧脸谱与行当艺术",
+      "instructor": "梅兰芳（助教）",
+      "coverImage": "/static/course/course_9.png",
+      "price": 0,
+      "type": "free",
+      "studentCount": 1592,
+      "description": "“蓝脸的窦尔敦盗御马，红脸的关公战长沙”，本课程带你认识京剧“生旦净丑”四大行当，解密五彩斑斓的脸谱下的人物性格与命运。",
+      "outline": [
+        {
+          "id": 901,
+          "title": "第一章：京剧艺术巡礼",
+          "content": "京剧的形成与发展。"
+        },
+        {
+          "id": 902,
+          "title": "第二章：生旦净丑四大行当",
+          "content": "详解各行当的特点与代表人物。"
+        },
+        {
+          "id": 903,
+          "title": "第三章：脸谱的色彩密码",
+          "content": "红、黑、白、蓝、绿各代表什么性格？"
+        },
+        {
+          "id": 904,
+          "title": "第四章：经典剧目赏析",
+          "content": "赏析《贵妃醉酒》、《霸王别姬》等经典片段。"
+        },
+        {
+          "id": 905,
+          "title": "第五章：唱念做打的程式之美",
+          "content": "了解京剧表演的四种艺术手法。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "梅兰芳（助教）",
+        "title": "AI国粹传承者",
+        "avatar": "/static/logo.png",
+        "bio": "融合了京剧表演艺术大师的影像与声学资料，旨在以现代科技传播国粹艺术。"
+      }
+    },
+    {
+      "id": 10,
+      "title": "《易经》智慧与现代生活",
+      "instructor": "周文王",
+      "coverImage": "/static/course/course_10.png",
+      "price": 299,
+      "type": "paid",
+      "studentCount": 731,
+      "description": "拨开《易经》的神秘面纱，理解阴阳、八卦、六十四卦的基本概念，探讨其蕴含的朴素辩证法思想，并学习如何将其智慧应用于现代决策与生活。",
+      "outline": [
+        {
+          "id": 1001,
+          "title": "第一章：走近群经之首《易经》",
+          "content": "《易经》是什么？不是什么？"
+        },
+        {
+          "id": 1002,
+          "title": "第二章：从阴阳到八卦",
+          "content": "学习构成《易经》的基本符号。"
+        },
+        {
+          "id": 1003,
+          "title": "第三章：六十四卦的结构与基本卦象",
+          "content": "解析乾、坤、坎、离等核心卦象。"
+        },
+        {
+          "id": 1004,
+          "title": "第四章：占筮的基本原理与方法",
+          "content": "了解古人是如何用它来决策的。"
+        },
+        {
+          "id": 1005,
+          "title": "第五章：《易经》智慧与人生启迪",
+          "content": "探讨“穷则变，变则通，通则久”的现代意义。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "周文王",
+        "title": "国学研究学者",
+        "avatar": "/static/logo.png",
+        "bio": "长期致力于儒道哲学研究，尤其在《易经》的现代应用领域有独到见解，善于用生动案例解读晦涩古籍。"
+      }
+    },
+    {
+      "id": 11,
+      "title": "苏绣：指尖上的江南风雅",
+      "instructor": "沈寿",
+      "coverImage": "/static/course/course_11.png",
+      "price": 159,
+      "type": "paid",
+      "studentCount": 410,
+      "description": "苏绣被誉为“东方明珠”。本课程将教授苏绣基本针法、色彩搭配与绣稿设计，完成一幅属于你自己的精美绣品，体验慢生活之美。",
+      "outline": [
+        {
+          "id": 1101,
+          "title": "第一章：苏绣的历史与工具",
+          "content": "了解苏绣的起源与所需的基本工具。"
+        },
+        {
+          "id": 1102,
+          "title": "第二章：理线、劈丝与上绷",
+          "content": "学习绣前准备工作的核心技巧。"
+        },
+        {
+          "id": 1103,
+          "title": "第三章：齐针、乱针等核心针法",
+          "content": "掌握苏绣最具代表性的几种针法。"
+        },
+        {
+          "id": 1104,
+          "title": "第四章：花卉草虫题材实战",
+          "content": "从简单的花卉开始，绣制一幅完整作品。"
+        },
+        {
+          "id": 1105,
+          "title": "第五章：绣品的保养与装裱",
+          "content": "学习如何让你的作品长久保存。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "沈寿",
+        "title": "苏绣工艺美术大师",
+        "avatar": "/static/logo.png",
+        "bio": "出生于刺绣世家，从事苏绣创作四十余年，作品以精细雅洁著称，多次作为国礼赠送外宾。"
+      }
+    },
+    {
+      "id": 12,
+      "title": "中华传统节日与民俗",
+      "instructor": "钟南山（民俗学者）",
+      "coverImage": "/static/course/course_12.png",
+      "price": 0,
+      "type": "free",
+      "studentCount": 4536,
+      "description": "从春节、元宵到中秋、重阳，本课程将生动讲述主要传统节日的由来、传说与习俗，带你重拾那份独特的仪式感，理解节俗背后的文化内涵。",
+      "outline": [
+        {
+          "id": 1201,
+          "title": "第一章：春节：辞旧迎新",
+          "content": "从年兽的传说到贴春联、放鞭炮的习俗。"
+        },
+        {
+          "id": 1202,
+          "title": "第二章：清明与端午：祭祀与纪念",
+          "content": "探讨扫墓、踏青、赛龙舟、吃粽子的文化意义。"
+        },
+        {
+          "id": 1203,
+          "title": "第三章：七夕与中秋：爱情与团圆",
+          "content": "讲述牛郎织女与嫦娥奔月的故事。"
+        },
+        {
+          "id": 1204,
+          "title": "第四章：重阳与冬至：敬老与天时",
+          "content": "了解登高、赏菊、吃饺子等习俗的由来。"
+        },
+        {
+          "id": 1205,
+          "title": "第五章：正在消失的民俗",
+          "content": "探讨现代社会中传统民俗的传承与挑战。"
+        }
+      ],
+      "instructorInfo": {
+        "name": "钟南山（民俗学者）",
+        "title": "民俗学研究专家",
+        "avatar": "/static/logo.png",
+        "bio": "致力于田野调查与民俗文化研究，足迹遍布大江南北，著有《中华节俗考源》等书籍。"
+      }
+    }
+  ],
+  "user_progress": [
+    {
+      "id": 1,
+      "userId": 1,
+      "courseId": 1,
+      "completedChapters": [
+        101,
+        102
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "courseId": 6,
+      "completedChapters": [
+        601,
+        602,
+        604,
+        603,
+        605
+      ],
+      "certificateAwarded": true,
+      "awardDate": "2025-07-12T14:33:42.674Z"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "courseId": 1,
+      "completedChapters": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "certificateAwarded": true,
+      "awardDate": "2025-07-13T03:42:03.664Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "courseId": 9,
+      "completedChapters": [
+        901
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "courseId": 5,
+      "completedChapters": [
+        503,
+        501,
+        502,
+        504,
+        505
+      ],
+      "certificateAwarded": true,
+      "awardDate": "2025-07-13T05:35:42.024Z"
+    },
+    {
+      "id": 6,
+      "userId": 5,
+      "courseId": 2,
+      "completedChapters": [
+        201,
+        202,
+        203,
+        204
+      ],
+      "certificateAwarded": true,
+      "awardDate": "2025-07-13T07:14:22.665Z"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "courseId": 2,
+      "completedChapters": [
+        201,
+        202,
+        203,
+        204
+      ],
+      "certificateAwarded": true,
+      "awardDate": "2025-07-13T13:02:43.452Z"
+    },
+    {
+      "id": 8,
+      "userId": 7,
+      "courseId": 7,
+      "completedChapters": [
+        701,
+        702,
+        703,
+        704,
+        705
+      ],
+      "certificateAwarded": true,
+      "awardDate": "2025-09-16T01:24:55.173Z"
+    },
+    {
+      "id": 9,
+      "userId": 5,
+      "courseId": 1,
+      "completedChapters": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "certificateAwarded": true,
+      "awardDate": "2025-11-12T02:08:18.117Z"
+    },
+    {
+      "id": 10,
+      "userId": 7,
+      "courseId": 11,
+      "completedChapters": [
+        1101,
+        1102,
+        1103,
+        1104,
+        1105
+      ],
+      "certificateAwarded": true,
+      "awardDate": "2025-11-12T02:18:55.712Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "手工汝窑天青釉茶杯",
+      "price": 288,
+      "coverImage": "/static/images/products/product_cover_1.jpg",
+      "sellerId": 1,
+      "sellerName": "观山海",
+      "sellerAvatar": "/static/logo.png",
+      "description": "纯手工拉坯，釉色温润如玉，开片自然，是品茶爱好者的不二之选。每一只都独一无二。",
+      "stock": 10,
+      "isCertified": true
+    },
+    {
+      "id": 2,
+      "name": "小楷狼毫毛笔套装",
+      "price": 128,
+      "coverImage": "/static/images/products/product_cover_2.jpg",
+      "sellerId": 2,
+      "sellerName": "听雨轩主",
+      "sellerAvatar": "/static/logo.png",
+      "description": "精选黄鼠狼尾毛，笔锋劲健，弹性适中，适合练习小楷、抄写心经。",
+      "stock": 50,
+      "isCertified": false
+    },
+    {
+      "id": 3,
+      "name": "徽州特产“蝉翼”宣纸",
+      "price": 99,
+      "coverImage": "/static/images/products/product_cover_3.jpg",
+      "sellerId": 1,
+      "sellerName": "观山海",
+      "sellerAvatar": "/static/logo.png",
+      "description": "半生半熟，润墨性好，纸质薄如蝉翼，韧性十足，适合书法及写意画创作。",
+      "stock": 100,
+      "isCertified": false
+    },
+    {
+      "id": 4,
+      "name": "复刻宋代《千里江山图》挂画",
+      "price": 899,
+      "coverImage": "/static/images/products/product_cover_4.jpg",
+      "sellerId": 2,
+      "sellerName": "听雨轩主",
+      "sellerAvatar": "/static/logo.png",
+      "description": "高清微喷技术，色彩还原度高，画芯采用绢本，装裱精致，为您的书房增添一抹传世之美。",
+      "stock": 5,
+      "isCertified": true
+    },
+    {
+      "id": 5,
+      "name": "【名家篆刻】定制闲章",
+      "price": 499,
+      "coverImage": "/static/images/products/product_cover_5.jpg",
+      "sellerId": 2,
+      "sellerName": "听雨轩主",
+      "sellerAvatar": "/static/logo.png",
+      "description": "可定制姓名章、闲章，采用青田石，由资深篆刻师傅手工刻制，附赠精美印泥与印章盒。",
+      "stock": 15,
+      "isCertified": true
+    },
+    {
+      "id": 6,
+      "name": "《兰亭集序》高仿字帖",
+      "price": 158,
+      "coverImage": "/static/images/products/product_cover_6.jpg",
+      "sellerId": 1,
+      "sellerName": "观山海",
+      "sellerAvatar": "/static/logo.png",
+      "description": "采用神龙本为底本，1:1原大复制，纸质优良，行笔细节清晰可见，是临摹天下第一行书的绝佳范本。",
+      "stock": 30,
+      "isCertified": false
+    },
+    {
+      "id": 7,
+      "name": "中式黑胡桃木画框",
+      "price": 320,
+      "coverImage": "/static/images/products/product_cover_7.jpg",
+      "sellerId": 1,
+      "sellerName": "观山海",
+      "sellerAvatar": "/static/logo.png",
+      "description": "北美黑胡桃木实木打造，榫卯结构，表面木蜡油处理，环保无味。可装裱A3尺寸画芯，为您的作品提供最佳衬托。",
+      "stock": 20,
+      "isCertified": false
+    },
+    {
+      "id": 8,
+      "name": "“知竹”便携式茶具套装",
+      "price": 399,
+      "coverImage": "/static/images/products/product_cover_8.jpg",
+      "sellerId": 2,
+      "sellerName": "听雨轩主",
+      "sellerAvatar": "/static/logo.png",
+      "description": "一壶两杯，竹编便携包，设计简约现代。快客杯设计，懒人泡茶神器，适合办公室、旅行使用。",
+      "stock": 25,
+      "isCertified": true
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "items": [
+        {
+          "productId": 6,
+          "quantity": 5
+        },
+        {
+          "productId": 5,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "items": []
+    },
+    {
+      "userId": 4,
+      "items": []
+    },
+    {
+      "userId": 5,
+      "items": []
+    }
+  ],
+  "badges": [
+    {
+      "badgeId": 1,
+      "name": "初出茅庐",
+      "description": "首次成功发布作品",
+      "icon": "/static/images/badges/badge_newbie_artist.png"
+    },
+    {
+      "badgeId": 2,
+      "name": "勤奋好学",
+      "description": "完成任意一门课程",
+      "icon": "/static/images/badges/badge_diligent_student.png"
+    },
+    {
+      "badgeId": 3,
+      "name": "慧眼识珠",
+      "description": "首次成功下单购物",
+      "icon": "/static/images/badges/badge_first_purchase.png"
+    },
+    {
+      "badgeId": 4,
+      "name": "艺术评论家",
+      "description": "累计发表5条评论",
+      "icon": "/static/images/badges/badge_pinglun.png"
+    },
+    {
+      "badgeId": 5,
+      "name": "小有名气",
+      "description": "作品累计获得10个赞",
+      "icon": "/static/images/badges/badge_mingqi.png"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "HY1762913894189309",
+      "userId": 7,
+      "items": [
+        {
+          "productId": 7,
+          "quantity": 1,
+          "price": 320,
+          "name": "中式黑胡桃木画框",
+          "coverImage": "/static/images/products/product_cover_7.jpg"
+        }
+      ],
+      "totalPrice": 320,
+      "shippingAddress": {
+        "id": 1,
+        "name": "韩方俊",
+        "phone": "11122233344",
+        "region": "重庆市 重庆市 北碚区",
+        "detail": "云华路",
+        "isDefault": false
+      },
+      "status": "待付款",
+      "createdAt": "2025-11-12T02:18:14.189Z"
+    },
+    {
+      "orderId": "HY1757985831489365",
+      "userId": 7,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 288,
+          "name": "手工汝窑天青釉茶杯",
+          "coverImage": "/static/images/products/product_cover_1.jpg"
+        }
+      ],
+      "totalPrice": 288,
+      "shippingAddress": {
+        "id": 1,
+        "name": "韩方俊",
+        "phone": "11122233344",
+        "region": "重庆市 重庆市 北碚区",
+        "detail": "云华路",
+        "isDefault": false
+      },
+      "status": "待付款",
+      "createdAt": "2025-09-16T01:23:51.489Z"
+    },
+    {
+      "orderId": "HY1752390891143420",
+      "userId": 5,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 288,
+          "name": "手工汝窑天青釉茶杯",
+          "coverImage": "/static/images/products/product_cover_1.jpg"
+        }
+      ],
+      "totalPrice": 288,
+      "shippingAddress": {
+        "id": 1,
+        "name": "曹子墨",
+        "phone": "12345678901",
+        "region": "重庆市 重庆市 北碚区",
+        "detail": "云华路",
+        "isDefault": true
+      },
+      "status": "待付款",
+      "createdAt": "2025-07-13T07:14:51.143Z"
+    },
+    {
+      "orderId": "HY175238435989318",
+      "userId": 1,
+      "items": [
+        {
+          "productId": 5,
+          "quantity": 1,
+          "price": 499,
+          "name": "【名家篆刻】定制闲章"
+        }
+      ],
+      "totalPrice": 499,
+      "shippingAddress": {
+        "id": 1,
+        "name": "阿萨",
+        "phone": "12345678999",
+        "region": "香港特别行政区 香港特别行政区 油尖旺区",
+        "detail": "弥敦道666号",
+        "isDefault": true
+      },
+      "status": "待付款",
+      "createdAt": "2025-07-13T05:25:59.893Z"
+    },
+    {
+      "orderId": "HY1752384115749632",
+      "userId": 1,
+      "items": [
+        {
+          "productId": "4",
+          "quantity": 2,
+          "price": 899,
+          "name": "复刻宋代《千里江山图》挂画"
+        },
+        {
+          "productId": 5,
+          "quantity": 2,
+          "price": 499,
+          "name": "【名家篆刻】定制闲章"
+        }
+      ],
+      "totalPrice": 2796,
+      "shippingAddress": {
+        "id": 1,
+        "name": "阿萨",
+        "phone": "12345678999",
+        "region": "香港特别行政区 香港特别行政区 油尖旺区",
+        "detail": "弥敦道666号",
+        "isDefault": true
+      },
+      "status": "待付款",
+      "createdAt": "2025-07-13T05:21:55.749Z"
+    },
+    {
+      "orderId": "HY1752378342960835",
+      "userId": 4,
+      "items": [
+        {
+          "productId": 6,
+          "quantity": 1,
+          "price": 158,
+          "name": "《兰亭集序》高仿字帖"
+        }
+      ],
+      "totalPrice": 158,
+      "shippingAddress": {
+        "id": 1,
+        "name": "曹子憋",
+        "phone": "18300663371",
+        "region": "重庆市 重庆市 北碚区",
+        "detail": "云华路",
+        "isDefault": true
+      },
+      "status": "待付款",
+      "createdAt": "2025-07-13T03:45:42.960Z"
+    },
+    {
+      "orderId": "HY1752340577029771",
+      "userId": 3,
+      "items": [
+        {
+          "productId": 7,
+          "quantity": 2,
+          "price": 320,
+          "name": "中式黑胡桃木画框"
+        }
+      ],
+      "totalPrice": 640,
+      "shippingAddress": {
+        "id": 3,
+        "name": "草",
+        "phone": "12345678906",
+        "region": "香港特别行政区 香港特别行政区 油尖旺区",
+        "detail": "弥敦道666号",
+        "isDefault": true
+      },
+      "status": "待付款",
+      "createdAt": "2025-07-12T17:16:17.029Z"
+    }
+  ],
+  "featured_content": {
+    "type": "course",
+    "id": 1,
+    "title": "每日一赏：开启你的山水画之旅",
+    "description": "从基础笔墨到意境营造，带你领略东方美学的独特魅力。"
+  }
+}

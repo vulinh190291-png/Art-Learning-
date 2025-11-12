@@ -1,0 +1,31 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-avatar.data-v-34d954f9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.u-avatar--circle.data-v-34d954f9 {
+  border-radius: 100px;
+}
+.u-avatar--square.data-v-34d954f9 {
+  border-radius: 4px;
+}
+.u-avatar__image--circle.data-v-34d954f9 {
+  border-radius: 100px;
+  overflow: hidden;
+}
+.u-avatar__image--square.data-v-34d954f9 {
+  border-radius: 4px;
+}

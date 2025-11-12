@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "课程详情",
+  "usingComponents": {
+    "u-loading-icon": "../../uni_modules/uview-plus/components/u-loading-icon/u-loading-icon",
+    "u-empty": "../../uni_modules/uview-plus/components/u-empty/u-empty",
+    "u-tabs": "../../uni_modules/uview-plus/components/u-tabs/u-tabs",
+    "u-divider": "../../uni_modules/uview-plus/components/u-divider/u-divider",
+    "u-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon",
+    "u--image": "../../uni_modules/uview-plus/components/u--image/u--image",
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button"
+  }
+}

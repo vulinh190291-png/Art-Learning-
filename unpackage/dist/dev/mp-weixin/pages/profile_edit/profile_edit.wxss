@@ -1,0 +1,52 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-container.data-v-292c5867 {
+  background-color: #f3f4f6;
+  min-height: 100vh;
+  padding: 24rpx;
+}
+.form-card.data-v-292c5867 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 40rpx 30rpx;
+}
+.avatar-section.data-v-292c5867 {
+  position: relative;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 0 auto;
+}
+.avatar-section .camera-mask.data-v-292c5867 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50rpx;
+  height: 50rpx;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2rpx solid #fff;
+}
+.avatar-tip.data-v-292c5867 {
+  display: block;
+  text-align: center;
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 16rpx;
+  margin-bottom: 40rpx;
+}
+.save-button-wrapper.data-v-292c5867 {
+  margin-top: 60rpx;
+}

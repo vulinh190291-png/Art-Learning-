@@ -1,0 +1,60 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-container.data-v-e4e4508d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 60rpx;
+  background: linear-gradient(180deg, #fdf8e4, #f0e9d6);
+}
+.logo-container.data-v-e4e4508d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80rpx;
+}
+.logo-container .logo.data-v-e4e4508d {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.1);
+}
+.logo-container .app-name.data-v-e4e4508d {
+  font-size: 52rpx;
+  font-weight: bold;
+  color: #004343;
+  margin-top: 20rpx;
+}
+.logo-container .app-desc.data-v-e4e4508d {
+  font-size: 28rpx;
+  color: #74a892;
+}
+.form-container.data-v-e4e4508d {
+  width: 100%;
+}
+.form-container.data-v-e4e4508d .u-input {
+  background-color: #fff !important;
+  padding: 10rpx 20rpx !important;
+  border-radius: 16rpx !important;
+}
+.extra-links.data-v-e4e4508d {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+.extra-links .link.data-v-e4e4508d {
+  font-size: 26rpx;
+  color: #008585;
+}

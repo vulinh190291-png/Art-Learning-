@@ -1,0 +1,1 @@
+<uv-form wx:if="{{b}}" class="r" u-s="{{['d']}}" u-r="uForm" u-i="9902f2f0-0" bind:__l="__l" u-p="{{b}}"><slot/></uv-form>

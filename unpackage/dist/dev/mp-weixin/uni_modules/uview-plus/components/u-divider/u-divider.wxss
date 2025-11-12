@@ -1,0 +1,27 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-divider.data-v-ea022cee {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0;
+}
+.u-divider__text.data-v-ea022cee {
+  margin: 0 15px;
+}
+.u-divider__dot.data-v-ea022cee {
+  font-size: 12px;
+  margin: 0 12px;
+  color: #c0c4cc;
+}

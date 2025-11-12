@@ -1,0 +1,70 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-container.data-v-0832fc77 {
+  background-color: #f3f4f6;
+  padding: 24rpx;
+  min-height: 100vh;
+}
+.card.data-v-0832fc77 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 24rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.04);
+}
+.upload-placeholder.data-v-0832fc77 {
+  background-color: #f9fafb;
+  border: 1px dashed #d1d5db;
+  border-radius: 8rpx;
+  width: 200rpx;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.placeholder-text.data-v-0832fc77 {
+  font-size: 24rpx;
+  color: #9ca3af;
+  margin-top: 10rpx;
+}
+.category-title.data-v-0832fc77 {
+  font-size: 30rpx;
+  color: #303133;
+  margin-bottom: 20rpx;
+  font-weight: 500;
+}
+.category-scroll.data-v-0832fc77 {
+  white-space: nowrap;
+}
+.category-scroll .category-tag.data-v-0832fc77 {
+  display: inline-block;
+  background-color: #f3f4f6;
+  color: #606266;
+  padding: 12rpx 28rpx;
+  border-radius: 30rpx;
+  margin-right: 20rpx;
+  font-size: 26rpx;
+  transition: all 0.2s ease-in-out;
+}
+.category-scroll .category-tag.active.data-v-0832fc77 {
+  background-color: #008585;
+  color: #fff;
+  font-weight: 500;
+}
+.sub-category-scroll.data-v-0832fc77 {
+  margin-top: 20rpx;
+}
+.publish-button-wrapper.data-v-0832fc77 {
+  padding: 20rpx;
+}

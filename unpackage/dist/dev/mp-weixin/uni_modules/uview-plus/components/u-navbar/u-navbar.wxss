@@ -1,0 +1,59 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-navbar--fixed.data-v-f631659b {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 11;
+}
+.u-navbar__content.data-v-f631659b {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 44px;
+  background-color: #9acafc;
+  position: relative;
+  justify-content: center;
+}
+.u-navbar__content__left.data-v-f631659b, .u-navbar__content__right.data-v-f631659b {
+  padding: 0 13px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.u-navbar__content__left.data-v-f631659b {
+  left: 0;
+}
+.u-navbar__content__left--hover.data-v-f631659b {
+  opacity: 0.7;
+}
+.u-navbar__content__left__text.data-v-f631659b {
+  font-size: 15px;
+  margin-left: 3px;
+}
+.u-navbar__content__title.data-v-f631659b {
+  text-align: center;
+  font-size: 16px;
+  color: #303133;
+}
+.u-navbar__content__right.data-v-f631659b {
+  right: 0;
+}
+.u-navbar__content__right__text.data-v-f631659b {
+  font-size: 15px;
+  margin-left: 3px;
+}

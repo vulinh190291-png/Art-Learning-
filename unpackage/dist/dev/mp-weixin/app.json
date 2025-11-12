@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/gallery/gallery",
+    "pages/classroom/classroom",
+    "pages/market/market",
+    "pages/profile/profile",
+    "pages/login/login",
+    "pages/post/post",
+    "pages/course_detail/course_detail",
+    "pages/learning_player/learning_player",
+    "pages/certificate/certificate",
+    "pages/product_detail/product_detail",
+    "pages/cart/cart",
+    "pages/order_list/order_list",
+    "pages/achievements/achievements",
+    "pages/register/register",
+    "pages/my_collections/my_collections",
+    "pages/my_certificates/my_certificates",
+    "pages/address_management/address_management",
+    "pages/address_edit/address_edit",
+    "pages/map_picker/map_picker",
+    "pages/order_confirm/order_confirm",
+    "pages/order_detail/order_detail",
+    "pages/profile_edit/profile_edit"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "绘影",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#008585",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/gallery/gallery",
+        "text": "画廊"
+      },
+      {
+        "pagePath": "pages/classroom/classroom",
+        "text": "课堂"
+      },
+      {
+        "pagePath": "pages/market/market",
+        "text": "易市"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

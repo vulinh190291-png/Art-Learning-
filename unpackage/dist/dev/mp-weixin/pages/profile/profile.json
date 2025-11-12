@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "u-cell": "../../uni_modules/uview-plus/components/u-cell/u-cell",
+    "u-cell-group": "../../uni_modules/uview-plus/components/u-cell-group/u-cell-group",
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button"
+  }
+}

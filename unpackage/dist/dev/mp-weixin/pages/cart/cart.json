@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的购物车",
+  "usingComponents": {
+    "u-loading-icon": "../../uni_modules/uview-plus/components/u-loading-icon/u-loading-icon",
+    "u-empty": "../../uni_modules/uview-plus/components/u-empty/u-empty",
+    "u-number-box": "../../uni_modules/uview-plus/components/u-number-box/u-number-box",
+    "u-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon",
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button"
+  }
+}

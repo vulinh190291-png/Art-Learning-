@@ -1,0 +1,86 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-container.data-v-ff9f7cff {
+  padding: 50rpx 30rpx;
+  background-color: #f3f4f6;
+}
+.certificate-wrapper.data-v-ff9f7cff {
+  background-color: #fdfaf2;
+  border: 2rpx solid #e5c185;
+  padding: 40rpx;
+  box-shadow: 0 8rpx 30rpx rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+.cert-header.data-v-ff9f7cff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cert-header .logo.data-v-ff9f7cff {
+  width: 100rpx;
+  height: 100rpx;
+}
+.cert-header .app-title.data-v-ff9f7cff {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #004343;
+  margin-top: 10rpx;
+}
+.cert-title.data-v-ff9f7cff {
+  font-size: 52rpx;
+  text-align: center;
+  margin: 40rpx 0;
+  font-weight: 600;
+  color: #c7522a;
+  letter-spacing: 10rpx;
+}
+.cert-body.data-v-ff9f7cff {
+  font-size: 30rpx;
+  line-height: 1.8;
+  color: #333;
+}
+.cert-body .congrats-text.data-v-ff9f7cff {
+  display: block;
+  margin-bottom: 20rpx;
+}
+.cert-body .student-name.data-v-ff9f7cff {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #004343;
+  margin-bottom: 20rpx;
+}
+.cert-body .course-name.data-v-ff9f7cff {
+  color: #008585;
+  font-weight: bold;
+}
+.cert-footer.data-v-ff9f7cff {
+  margin-top: 80rpx;
+  text-align: right;
+  font-size: 28rpx;
+  color: #666;
+}
+.cert-footer .issuer.data-v-ff9f7cff {
+  margin-bottom: 10rpx;
+}
+.stamp.data-v-ff9f7cff {
+  position: absolute;
+  right: 40rpx;
+  bottom: 80rpx;
+  width: 180rpx;
+  height: 180rpx;
+  opacity: 0.8;
+}
+.action-button-wrapper.data-v-ff9f7cff {
+  margin-top: 60rpx;
+}

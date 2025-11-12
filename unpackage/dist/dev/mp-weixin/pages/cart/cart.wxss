@@ -1,0 +1,110 @@
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-container.data-v-c91e7611 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f3f4f6;
+}
+.loading-state.data-v-c91e7611, .empty-state.data-v-c91e7611 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-content-wrapper.data-v-c91e7611 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.scroll-view-container.data-v-c91e7611 {
+  flex: 1;
+  min-height: 0;
+}
+.card.data-v-c91e7611 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.04);
+}
+.cart-item.data-v-c91e7611 {
+  display: flex;
+  padding: 20rpx;
+  align-items: center;
+  margin: 24rpx 24rpx 0;
+}
+.cart-item .product-image.data-v-c91e7611 {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 8rpx;
+  flex-shrink: 0;
+}
+.cart-item .item-info.data-v-c91e7611 {
+  flex: 1;
+  margin: 0 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 160rpx;
+}
+.cart-item .item-info .name.data-v-c91e7611 {
+  font-size: 28rpx;
+  color: #333;
+}
+.cart-item .item-info .price-stepper.data-v-c91e7611 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-item .item-info .price-stepper .price.data-v-c91e7611 {
+  font-size: 30rpx;
+  color: #c7522a;
+  font-weight: 500;
+}
+.cart-item .delete-btn.data-v-c91e7611 {
+  padding: 10rpx;
+}
+.cart-item .delete-btn text.data-v-c91e7611 {
+  color: #999;
+}
+.cart-item .invalid-item.data-v-c91e7611 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  color: #999;
+  font-size: 28rpx;
+}
+.checkout-bar.data-v-c91e7611 {
+  background-color: #fff;
+  border-top: 1rpx solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15rpx 30rpx;
+  padding-bottom: calc(15rpx + env(safe-area-inset-bottom));
+}
+.checkout-bar .total-price.data-v-c91e7611 {
+  display: flex;
+  align-items: baseline;
+}
+.checkout-bar .total-price .price-symbol.data-v-c91e7611 {
+  font-size: 24rpx;
+  color: #c7522a;
+}
+.checkout-bar .total-price .price-amount.data-v-c91e7611 {
+  font-size: 36rpx;
+  color: #c7522a;
+  font-weight: bold;
+}
