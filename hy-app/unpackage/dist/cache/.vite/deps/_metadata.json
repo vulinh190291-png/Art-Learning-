@@ -1,31 +1,25 @@
 {
-  "hash": "35079466",
-  "configHash": "d472edc8",
-  "lockfileHash": "ae5ecea7",
-  "browserHash": "2dfe79cf",
+  "hash": "ad0d6b88",
+  "configHash": "816c3bf6",
+  "lockfileHash": "73ba7d93",
+  "browserHash": "42c86671",
   "optimized": {
     "dayjs/esm/index": {
       "src": "../../../../../node_modules/dayjs/esm/index.js",
       "file": "dayjs_esm_index.js",
-      "fileHash": "f3793b10",
+      "fileHash": "4d212bc4",
       "needsInterop": false
     },
     "axios": {
       "src": "../../../../../node_modules/axios/index.js",
       "file": "axios.js",
-      "fileHash": "960c70fd",
+      "fileHash": "d82c5777",
       "needsInterop": false
     },
     "axios-adapter-uniapp": {
       "src": "../../../../../node_modules/axios-adapter-uniapp/index.js",
       "file": "axios-adapter-uniapp.js",
-      "fileHash": "440025b5",
-      "needsInterop": true
-    },
-    "dayjs": {
-      "src": "../../../../../node_modules/dayjs/dayjs.min.js",
-      "file": "dayjs.js",
-      "fileHash": "820e3ae9",
+      "fileHash": "caa59ca0",
       "needsInterop": true
     }
   },
