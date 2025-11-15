@@ -1,29 +1,36 @@
 package org.hyjava.hyall.user.pojo;
 
-import javax.annotation.processing.Generated;
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
+@Table(name = "user")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name=="user_id")
+    @Getter
+    @Setter
+    @Column(name="id")
     private Integer userId;
-    @Column(name=="user_name")
+    @Column(name="username")
+    @Getter
+    @Setter
     private String userName;
-    @Column(name=="password")
-    private String password;
-    @Column(name=="email")
-    private String email;
-
-    public Integer getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
+    @Column(name="password")
+    @Getter
+    @Setter
+    private String Password;
+    @Column(name="nickname")
+    @Getter
+    @Setter
+    private String nickName;
+    @Column(name="avatar_url")
+    @Getter
+    @Setter
+    private String userAvatar;
+    @Column(name="bio")
+    @Getter
+    @Setter
+    private String userBio;
 }
