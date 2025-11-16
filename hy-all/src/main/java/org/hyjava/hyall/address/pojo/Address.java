@@ -9,10 +9,10 @@ import lombok.Setter;
 public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
+    @Column(name = "address_id")
     @Getter
     @Setter
-    private Integer id;
+    private Integer addressId;
 
     @Column(name = "user_id")
     @Getter
@@ -34,7 +34,7 @@ public class Address {
     @Setter
     private String region;
 
-    @Column(name = "detail_address")
+    @Column(name = "detail")
     @Getter
     @Setter
     private String detailAddress;

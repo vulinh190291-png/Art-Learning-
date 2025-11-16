@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 public interface IAddrservice {
     /*
       增加用户地址
-      @param userId
-     * @return
+      @param AddressDTO类型
+     * @return  Address
      */
     public Address addUserAddress(AddressDTO address);
     /*

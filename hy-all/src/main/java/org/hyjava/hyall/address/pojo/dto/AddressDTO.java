@@ -7,7 +7,7 @@ import org.hibernate.validator.constraints.Length;
 public class AddressDTO {
     @Getter
     @Setter
-    private Integer id;
+    private Integer addressId;
     @Getter
     @Setter
     private Integer userId;
