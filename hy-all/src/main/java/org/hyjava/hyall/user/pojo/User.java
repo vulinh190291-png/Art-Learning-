@@ -11,13 +11,13 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Getter
     @Setter
-    @Column(name="id")
+    @Column(name="user_id")
     private Integer userId;
     @Column(name="username")
     @Getter
     @Setter
     private String userName;
-    @Column(name="password")
+    @Column(name="password_hash")
     @Getter
     @Setter
     private String Password;
