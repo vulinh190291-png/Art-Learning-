@@ -1,9 +1,7 @@
 package org.hyjava.hyall.user.pojo.dto;
 
-import jakarta.validation.constraints.Email;
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.validator.constraints.Length;
 
 public class UserDTO {
     @Getter
