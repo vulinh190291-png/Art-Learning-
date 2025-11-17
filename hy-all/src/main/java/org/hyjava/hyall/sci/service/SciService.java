@@ -26,9 +26,10 @@ public class SciService  implements ISciService{
 
     @Override
     public Sci updateSci(SciDTO Sci) {
-        Sci nSci = new Sci();
-        BeanUtils.copyProperties(Sci, nSci);
-        return sciRepository.save(nSci);
+        Integer cartItemId = Sci.getCartItemId();
+        Sci nsci = sciRepository.findById(cartItemId).orElseThrow(() -> new RuntimeException("没有这个东西" + cartItemId));
+        BeanUtils.copyProperties(Sci, nsci);
+        return sciRepository.save(nsci);
     }
 
     @Override

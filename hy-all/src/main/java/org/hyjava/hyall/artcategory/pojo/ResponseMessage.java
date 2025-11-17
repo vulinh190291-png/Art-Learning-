@@ -1,8 +1,7 @@
-package org.hyjava.hyall.order.pojo;
+package org.hyjava.hyall.artcategory.pojo;
 
 import lombok.Getter;
 import lombok.Setter;
-
 
 public class ResponseMessage<T> {
     @Getter

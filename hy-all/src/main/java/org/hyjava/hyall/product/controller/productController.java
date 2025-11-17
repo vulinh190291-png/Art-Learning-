@@ -5,7 +5,6 @@ import org.hyjava.hyall.product.pojo.dto.productDTO;
 import org.hyjava.hyall.product.pojo.product;
 import org.hyjava.hyall.product.service.IproductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

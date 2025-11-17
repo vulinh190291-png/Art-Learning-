@@ -21,7 +21,8 @@ public class productService implements IproductService{
 
     @Override
     public product updateOneProduct(productDTO product) {
-        product nProduct = new product();
+        Integer productId = product.getId();
+        product nProduct = productRepository.findById(productId).orElseThrow(() -> new RuntimeException("没有这个东西" + productId));
         BeanUtils.copyProperties(product, nProduct);
         return productRepository.save(nProduct);
     }
