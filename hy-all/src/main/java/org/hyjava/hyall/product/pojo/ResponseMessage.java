@@ -19,15 +19,15 @@ public class ResponseMessage<T> {
         this.data = data;
     }
 
-    public static <T> org.hyjava.hyall.address.pojo.ResponseMessage<T> success(T data) {
-        return new org.hyjava.hyall.address.pojo.ResponseMessage<>(200, "success", data);
+    public static <T> ResponseMessage<T> success(T data) {
+        return new ResponseMessage<>(200, "success", data);
     }
 
-    public static <T> org.hyjava.hyall.address.pojo.ResponseMessage<T> success() {
-        return new org.hyjava.hyall.address.pojo.ResponseMessage<>(200, "success", null);
+    public static <T> ResponseMessage<T> success() {
+        return new ResponseMessage<>(200, "success", null);
     }
 
-    public static <T> org.hyjava.hyall.address.pojo.ResponseMessage<T> error(Integer code, String message) {
-        return new org.hyjava.hyall.address.pojo.ResponseMessage<>(300, message, null);
+    public static <T> ResponseMessage<T> error(Integer code, String message) {
+        return new ResponseMessage<>(300, message, null);
     }
 }

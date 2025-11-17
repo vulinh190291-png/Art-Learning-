@@ -26,7 +26,8 @@ public class OrderService implements IOrderService{
 
     @Override
     public Order updateOrder(OrderDTO Order) {
-        Order nOrder = new Order();
+        Integer orderid = Order.getOrderId();
+        Order nOrder = orderRepository.findById(orderid).orElseThrow(() -> new RuntimeException("没有这个东西" +  orderid));
         BeanUtils.copyProperties(Order, nOrder);
         return orderRepository.save(nOrder);
     }

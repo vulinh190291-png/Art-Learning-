@@ -27,9 +27,15 @@ public class UserService implements IUserService{
     @Override
     public User updateUser(UserDTO User) {
         Integer UserId = User.getUserId();
+<<<<<<< HEAD
         User nUser = userRepository.findById(UserId).orElseThrow(()-> new RuntimeException("要更新的艺术类型不存在，ID：" + UserId));
         BeanUtils.copyProperties(User, nUser);
         return userRepository.save(nUser);
+=======
+        User nuser = userRepository.findById(UserId).orElseThrow(() -> new RuntimeException("要更新的艺术类别不存在，ID: " + UserId));
+        BeanUtils.copyProperties(User, nuser);
+        return userRepository.save(nuser);
+>>>>>>> origin/master
     }
 
     @Override

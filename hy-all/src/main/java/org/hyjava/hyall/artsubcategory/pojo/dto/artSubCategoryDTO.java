@@ -1,0 +1,38 @@
+package org.hyjava.hyall.artsubcategory.pojo.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public class artSubCategoryDTO {
+    @Getter
+    @Setter
+    private Integer subCateId;
+
+    @Getter
+    @Setter
+    private Integer categoryId;
+
+    @Getter
+    @Setter
+    private String name;
+
+    @Getter
+    @Setter
+    private String coverImageUrl;
+
+    @Getter
+    @Setter
+    private String introduction;
+
+    @Getter
+    @Setter
+    private String history;
+
+    @Getter
+    @Setter
+    private String features;
+
+    @Getter
+    @Setter
+    private String culturalMeaning;
+}
