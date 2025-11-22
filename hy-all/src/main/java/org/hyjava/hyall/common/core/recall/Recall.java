@@ -1,4 +1,4 @@
-package org.hyjava.hyall.core.recall;
+package org.hyjava.hyall.common.core.recall;
 
 import lombok.Data;
 

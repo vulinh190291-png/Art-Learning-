@@ -1,6 +1,6 @@
-package org.hyjava.hyall.core.exception;
+package org.hyjava.hyall.common.exception;
 
-import org.hyjava.hyall.core.recall.Recall;
+import org.hyjava.hyall.common.core.recall.Recall;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
