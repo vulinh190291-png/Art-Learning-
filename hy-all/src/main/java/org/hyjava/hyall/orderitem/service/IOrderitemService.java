@@ -1,0 +1,13 @@
+package org.hyjava.hyall.orderitem.service;
+
+import org.hyjava.hyall.orderitem.pojo.Orderitem;
+import org.hyjava.hyall.orderitem.pojo.dto.OrderitemDTO;
+import org.springframework.stereotype.Service;
+
+@Service
+public interface IOrderitemService {
+    public Orderitem addOrderItem(OrderitemDTO orderItem);
+    public void deleteOrderItem(Integer orderItemId);
+    public Orderitem updateOrderItem(OrderitemDTO OrderItem);
+    public Orderitem queryOrderItem(Integer orderItemId);
+}
