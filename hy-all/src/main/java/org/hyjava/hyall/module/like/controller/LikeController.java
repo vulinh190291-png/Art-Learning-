@@ -1,6 +1,6 @@
 package org.hyjava.hyall.module.like.controller;
+import org.hyjava.hyall.common.core.result.Result;
 
-import org.hyjava.hyall.module.address.pojo.ResponseMessage;
 import org.hyjava.hyall.module.like.pojo.Like;
 import org.hyjava.hyall.module.like.pojo.dto.LikeDTO;
 import org.hyjava.hyall.module.like.service.LikeService;
@@ -14,26 +14,26 @@ public class LikeController {
     LikeService likeservice;
 
     @PostMapping
-    public ResponseMessage<Like> addLike(@RequestBody LikeDTO like) {
+    public Result<Like> addLike(@RequestBody LikeDTO like) {
         Like nLike = likeservice.addLike(like);
-        return ResponseMessage.success(nLike);
+        return Result.success(nLike);
     }
 
     @DeleteMapping
-    public ResponseMessage<Like> deleteLike(@RequestBody Integer likeId) {
+    public Result<Like> deleteLike(@RequestBody Integer likeId) {
         likeservice.deleteLike(likeId);
-        return ResponseMessage.success(null);
+        return Result.success(null);
     }
 
     @GetMapping
-    public ResponseMessage<Like> getLike(@RequestBody Integer likeId) {
+    public Result<Like> getLike(@RequestBody Integer likeId) {
         Like nlike = likeservice.queryLike(likeId);
-        return ResponseMessage.success(nlike);
+        return Result.success(nlike);
     }
 
     @PutMapping
-    public ResponseMessage<Like> updateLike(@RequestBody LikeDTO like) {
+    public Result<Like> updateLike(@RequestBody LikeDTO like) {
         Like nLike = likeservice.updateLike(like);
-        return ResponseMessage.success(nLike);
+        return Result.success(nLike);
     }
 }

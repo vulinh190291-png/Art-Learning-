@@ -1,6 +1,6 @@
 package org.hyjava.hyall.module.shopcartitem.controller;
+import org.hyjava.hyall.common.core.result.Result;
 
-import org.hyjava.hyall.module.shopcartitem.pojo.ResponseMessage;
 import org.hyjava.hyall.module.shopcartitem.pojo.Sci;
 import org.hyjava.hyall.module.shopcartitem.pojo.dto.SciDTO;
 import org.hyjava.hyall.module.shopcartitem.service.ISciService;
@@ -15,9 +15,9 @@ public class SciController {
     @Autowired
     ISciService sciService;
     @PostMapping
-    public ResponseMessage<Sci> addSci(@RequestBody @Validated SciDTO sci) {
+    public Result<Sci> addSci(@RequestBody @Validated SciDTO sci) {
         Sci nsci = sciService.addSci(sci);
-        return ResponseMessage.success(nsci);
+        return Result.success(nsci);
     }
 
     @DeleteMapping
@@ -26,14 +26,14 @@ public class SciController {
     }
 
     @PutMapping
-    public ResponseMessage<Sci> updateSci(@RequestBody @Validated SciDTO sci) {
+    public Result<Sci> updateSci(@RequestBody @Validated SciDTO sci) {
         Sci nsci = sciService.updateSci(sci);
-        return ResponseMessage.success(nsci);
+        return Result.success(nsci);
     }
 
     @GetMapping
-    public ResponseMessage<Sci> querySci(@RequestBody Integer cartItemId) {
+    public Result<Sci> querySci(@RequestBody Integer cartItemId) {
         Sci nsci = sciService.querySci(cartItemId);
-        return ResponseMessage.success(nsci);
+        return Result.success(nsci);
     }
 }

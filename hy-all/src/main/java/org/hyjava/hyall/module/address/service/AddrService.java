@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.address.service;
+import org.hyjava.hyall.common.core.result.Result;
 
 import org.hyjava.hyall.module.address.pojo.Address;
 import org.hyjava.hyall.module.address.pojo.dto.AddressDTO;

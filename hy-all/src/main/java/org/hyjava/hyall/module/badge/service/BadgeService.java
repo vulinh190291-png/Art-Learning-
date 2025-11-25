@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.badge.service;
+import org.hyjava.hyall.common.core.result.Result;
 
 import org.hyjava.hyall.module.badge.pojo.Badge;
 import org.hyjava.hyall.module.badge.pojo.dto.BadgeDTO;

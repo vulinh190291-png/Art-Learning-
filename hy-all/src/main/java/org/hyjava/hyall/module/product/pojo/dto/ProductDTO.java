@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.product.pojo.dto;
+import org.hyjava.hyall.common.core.result.Result;
 
 import lombok.Getter;
 import lombok.Setter;

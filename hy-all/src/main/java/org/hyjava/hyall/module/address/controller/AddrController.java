@@ -1,7 +1,7 @@
 package org.hyjava.hyall.module.address.controller;
+import org.hyjava.hyall.common.core.result.Result;
 
 import org.hyjava.hyall.module.address.pojo.Address;
-import org.hyjava.hyall.module.address.pojo.ResponseMessage;
 import org.hyjava.hyall.module.address.pojo.dto.AddressDTO;
 import org.hyjava.hyall.module.address.service.IAddrService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,9 +15,9 @@ public class AddrController {
     IAddrService addrservice;
 
     @PostMapping
-    public ResponseMessage<Address> addUserAddress(@RequestBody @Validated AddressDTO address) {
+    public Result<Address> addUserAddress(@RequestBody @Validated AddressDTO address) {
         Address naddress = addrservice.addUserAddress(address);
-        return ResponseMessage.success(naddress);
+        return Result.success(naddress);
     }
 
     @DeleteMapping
@@ -26,14 +26,14 @@ public class AddrController {
     }
 
     @PutMapping
-    public ResponseMessage<Address> updateUserAddress(@RequestBody @Validated AddressDTO address) {
+    public Result<Address> updateUserAddress(@RequestBody @Validated AddressDTO address) {
         Address naddress = addrservice.updateUserAddress(address);
-        return ResponseMessage.success(naddress);
+        return Result.success(naddress);
     }
 
     @GetMapping
-    public ResponseMessage<Address> queryUserAddress(@RequestBody Integer addressId) {
+    public Result<Address> queryUserAddress(@RequestBody Integer addressId) {
         Address naddress = addrservice.queryUserAddress(addressId);
-        return ResponseMessage.success(naddress);
+        return Result.success(naddress);
     }
 }

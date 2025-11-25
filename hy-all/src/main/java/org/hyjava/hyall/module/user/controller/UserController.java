@@ -1,6 +1,6 @@
 package org.hyjava.hyall.module.user.controller;
+import org.hyjava.hyall.common.core.result.Result;
 
-import org.hyjava.hyall.module.address.pojo.ResponseMessage;
 import org.hyjava.hyall.module.user.pojo.User;
 import org.hyjava.hyall.module.user.pojo.dto.UserDTO;
 import org.hyjava.hyall.module.user.service.IUserService;
@@ -17,9 +17,9 @@ public class UserController {
     @Autowired
     IUserService userService;
     @PostMapping
-    public ResponseMessage<User> addUser(@RequestBody @Validated UserDTO user) {
+    public Result<User> addUser(@RequestBody @Validated UserDTO user) {
         User nuser = userService.addUser(user);
-        return ResponseMessage.success(nuser);
+        return Result.success(nuser);
     }
 
     @DeleteMapping
@@ -28,18 +28,19 @@ public class UserController {
     }
 
     @PutMapping
-    public ResponseMessage<User> updateUser(@RequestBody @Validated UserDTO user) {
+    public Result<User> updateUser(@RequestBody @Validated UserDTO user) {
         User nuser = userService.updateUser(user);
-        return ResponseMessage.success(nuser);
+        return Result.success(nuser);
     }
 
     @GetMapping
-    public ResponseMessage<User> queryUser(@RequestParam Integer userId) {
+    public Result<User> queryUser(@RequestParam Integer userId) {
         User nuser = userService.queryUser(userId);
-        return ResponseMessage.success(nuser);
+        return Result.success(nuser);
     }
 
-    public ResponseMessage<List<User>> queryAllUser() {
-
+    public Result<Iterable<User>> queryAllUser() {
+        Iterable<User> nLUser = userService.queryAllUser();
+        return Result.success(nLUser);
     }
 }

@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.instructor.service;
+import org.hyjava.hyall.common.core.result.Result;
 
 import org.hyjava.hyall.module.instructor.pojo.Instructor;
 import org.hyjava.hyall.module.instructor.pojo.dto.InstructorDTO;

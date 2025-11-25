@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.collection.service;
+import org.hyjava.hyall.common.core.result.Result;
 
 import org.hyjava.hyall.module.collection.pojo.Collection;
 import org.hyjava.hyall.module.collection.pojo.dto.CollectionDTO;

@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.shopcartitem.pojo;
+import org.hyjava.hyall.common.core.result.Result;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

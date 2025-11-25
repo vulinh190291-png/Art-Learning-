@@ -1,6 +1,6 @@
 package org.hyjava.hyall.module.order.controller;
+import org.hyjava.hyall.common.core.result.Result;
 
-import org.hyjava.hyall.module.address.pojo.ResponseMessage;
 import org.hyjava.hyall.module.order.pojo.Order;
 import org.hyjava.hyall.module.order.pojo.dto.OrderDTO;
 import org.hyjava.hyall.module.order.service.IOrderService;
@@ -14,9 +14,9 @@ public class OrderController {
     @Autowired
     IOrderService orderService;
     @PostMapping
-    public ResponseMessage<Order> addOrder(@RequestBody @Validated OrderDTO order) {
+    public Result<Order> addOrder(@RequestBody @Validated OrderDTO order) {
         Order norder= orderService.addOrder(order);
-        return ResponseMessage.success(norder);
+        return Result.success(norder);
     }
 
     @DeleteMapping
@@ -25,14 +25,14 @@ public class OrderController {
     }
 
     @PutMapping
-    public ResponseMessage<Order> updateOrder(@RequestBody @Validated OrderDTO order) {
+    public Result<Order> updateOrder(@RequestBody @Validated OrderDTO order) {
         Order norder = orderService.updateOrder(order);
-        return ResponseMessage.success(norder);
+        return Result.success(norder);
     }
 
     @GetMapping
-    public ResponseMessage<Order> queryOrder(@RequestBody Integer orderId) {
+    public Result<Order> queryOrder(@RequestBody Integer orderId) {
         Order norder = orderService.queryOrder(orderId);
-        return ResponseMessage.success(norder);
+        return Result.success(norder);
     }
 }

@@ -1,6 +1,6 @@
 package org.hyjava.hyall.module.artcategory.controller;
+import org.hyjava.hyall.common.core.result.Result;
 
-import org.hyjava.hyall.module.artcategory.pojo.ResponseMessage;
 import org.hyjava.hyall.module.artcategory.pojo.Artcategory;
 import org.hyjava.hyall.module.artcategory.pojo.dto.ArtcategoryDTO;
 import org.hyjava.hyall.module.artcategory.service.IArtcategoryService;
@@ -15,26 +15,26 @@ public class ArtcategoryController {
     IArtcategoryService artCateService;
 
     @PostMapping
-    public ResponseMessage<Artcategory> addCate(@RequestBody @Validated ArtcategoryDTO artcategory) {
+    public Result<Artcategory> addCate(@RequestBody @Validated ArtcategoryDTO artcategory) {
         Artcategory nartcategory = artCateService.addCate(artcategory);
-        return ResponseMessage.success(nartcategory);
+        return Result.success(nartcategory);
     }
 
     @PutMapping
-    public ResponseMessage<Artcategory> updateCate(@RequestBody @Validated ArtcategoryDTO artcategory) {
+    public Result<Artcategory> updateCate(@RequestBody @Validated ArtcategoryDTO artcategory) {
         Artcategory nartcategory = artCateService.updateCate(artcategory);
-        return ResponseMessage.success(nartcategory);
+        return Result.success(nartcategory);
     }
 
     @DeleteMapping
-    public ResponseMessage<Artcategory> deleteCate(@RequestBody Integer id) {
+    public Result<Artcategory> deleteCate(@RequestBody Integer id) {
         artCateService.deleteCate(id);
-        return ResponseMessage.success(null);
+        return Result.success(null);
     }
 
     @GetMapping
-    public ResponseMessage<Artcategory> getCate(@RequestBody Integer cateId) {
+    public Result<Artcategory> getCate(@RequestBody Integer cateId) {
         Artcategory nartCategory = artCateService.queryCate(cateId);
-        return ResponseMessage.success(nartCategory);
+        return Result.success(nartCategory);
     }
 }

@@ -1,6 +1,6 @@
 package org.hyjava.hyall.module.product.controller;
+import org.hyjava.hyall.common.core.result.Result;
 
-import org.hyjava.hyall.module.address.pojo.ResponseMessage;
 import org.hyjava.hyall.module.product.pojo.dto.ProductDTO;
 import org.hyjava.hyall.module.product.pojo.Product;
 import org.hyjava.hyall.module.product.service.IProductService;
@@ -14,39 +14,39 @@ public class ProductController {
     private IProductService productService;
 
     @PostMapping
-    public ResponseMessage<Product> addOneProduct(@RequestBody ProductDTO product) {
+    public Result<Product> addOneProduct(@RequestBody ProductDTO product) {
         Product nProduct = productService.addOneProduct(product);
-        return ResponseMessage.success(nProduct);
+        return Result.success(nProduct);
     }
 
     @PostMapping("/batch")
-    public ResponseMessage<Product> addProducts(@RequestBody Iterable<Product> product) {
+    public Result<Product> addProducts(@RequestBody Iterable<Product> product) {
         productService.addProducts(product);
-        return ResponseMessage.success(null);
+        return Result.success(null);
     }
 
     @DeleteMapping
-    public ResponseMessage<Product> deleteOneProduct(@RequestBody Integer productId) {
+    public Result<Product> deleteOneProduct(@RequestBody Integer productId) {
         productService.deleteOneProduct(productId);
-        return ResponseMessage.success(null);
+        return Result.success(null);
     }
 
     @DeleteMapping("/dbatch")
-    public ResponseMessage<Product> deleteProducts(@RequestBody Iterable<Integer> productId) {
+    public Result<Product> deleteProducts(@RequestBody Iterable<Integer> productId) {
         productService.deleteProducts(productId);
-        return ResponseMessage.success(null);
+        return Result.success(null);
     }
 
     @PutMapping
-    public ResponseMessage<Product> updateOneProduct(@RequestBody ProductDTO product) {
+    public Result<Product> updateOneProduct(@RequestBody ProductDTO product) {
         Product nProduct = productService.updateOneProduct(product);
-        return ResponseMessage.success(nProduct);
+        return Result.success(nProduct);
     }
 
     @GetMapping
-    public ResponseMessage<Product> queryOneProduct(@RequestParam Integer productId) {
+    public Result<Product> queryOneProduct(@RequestParam Integer productId) {
         Product nProduct = productService.queryOneProduct(productId);
-        return ResponseMessage.success(nProduct);
+        return Result.success(nProduct);
     }
 
 }

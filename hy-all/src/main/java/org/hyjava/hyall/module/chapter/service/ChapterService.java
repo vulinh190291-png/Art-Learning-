@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.chapter.service;
+import org.hyjava.hyall.common.core.result.Result;
 
 import org.hyjava.hyall.module.chapter.pojo.Chapter;
 import org.hyjava.hyall.module.chapter.pojo.dto.ChapterDTO;

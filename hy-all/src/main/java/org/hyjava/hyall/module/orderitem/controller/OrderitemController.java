@@ -1,6 +1,6 @@
 package org.hyjava.hyall.module.orderitem.controller;
+import org.hyjava.hyall.common.core.result.Result;
 
-import org.hyjava.hyall.module.address.pojo.ResponseMessage;
 import org.hyjava.hyall.module.orderitem.pojo.Orderitem;
 import org.hyjava.hyall.module.orderitem.pojo.dto.OrderitemDTO;
 import org.hyjava.hyall.module.orderitem.service.IOrderitemService;
@@ -14,9 +14,9 @@ public class OrderitemController {
     @Autowired
     IOrderitemService orderItemService;
     @PostMapping
-    public ResponseMessage<Orderitem> addOrderItem(@RequestBody @Validated OrderitemDTO orderItem) {
+    public Result<Orderitem> addOrderItem(@RequestBody @Validated OrderitemDTO orderItem) {
         Orderitem norderitem = orderItemService.addOrderItem(orderItem);
-        return ResponseMessage.success(norderitem);
+        return Result.success(norderitem);
     }
 
     @DeleteMapping
@@ -25,14 +25,14 @@ public class OrderitemController {
     }
 
     @PutMapping
-    public ResponseMessage<Orderitem> updateOrderItem(@RequestBody @Validated OrderitemDTO orderItem) {
+    public Result<Orderitem> updateOrderItem(@RequestBody @Validated OrderitemDTO orderItem) {
         Orderitem norderitem = orderItemService.updateOrderItem(orderItem);
-        return ResponseMessage.success(norderitem);
+        return Result.success(norderitem);
     }
 
     @GetMapping
-    public ResponseMessage<Orderitem> queryOrderItem(@RequestBody Integer orderItemId) {
+    public Result<Orderitem> queryOrderItem(@RequestBody Integer orderItemId) {
          Orderitem norderitem = orderItemService.queryOrderItem(orderItemId);
-        return ResponseMessage.success(norderitem);
+        return Result.success(norderitem);
     }
 }

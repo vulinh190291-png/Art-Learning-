@@ -1,6 +1,6 @@
 package org.hyjava.hyall.module.artsubcategory.controller;
+import org.hyjava.hyall.common.core.result.Result;
 
-import org.hyjava.hyall.module.artsubcategory.pojo.ResponseMessage;
 import org.hyjava.hyall.module.artsubcategory.pojo.Artsubcategory;
 import org.hyjava.hyall.module.artsubcategory.pojo.dto.ArtsubcategoryDTO;
 import org.hyjava.hyall.module.artsubcategory.service.ArtsubService;
@@ -14,25 +14,25 @@ public class ArtsubController {
     ArtsubService artSubService;
 
     @PostMapping
-    public ResponseMessage<Artsubcategory> addArtSub(@RequestBody ArtsubcategoryDTO artSubCategory) {
+    public Result<Artsubcategory> addArtSub(@RequestBody ArtsubcategoryDTO artSubCategory) {
         Artsubcategory nartSub = artSubService.addArtSub(artSubCategory);
-        return ResponseMessage.success(nartSub);
+        return Result.success(nartSub);
     }
 
     @DeleteMapping
-    public ResponseMessage<Artsubcategory> delArtSub(@RequestBody Integer artsubId) {
+    public Result<Artsubcategory> delArtSub(@RequestBody Integer artsubId) {
         artSubService.deleteArtSub(artsubId);
-        return ResponseMessage.success(null);
+        return Result.success(null);
     }
 
     @GetMapping
-    public ResponseMessage<Artsubcategory> queryArtSub(@RequestBody Integer id) {
-        return ResponseMessage.success(artSubService.queryArtSub(id));
+    public Result<Artsubcategory> queryArtSub(@RequestBody Integer id) {
+        return Result.success(artSubService.queryArtSub(id));
     }
 
     @PutMapping
-    public ResponseMessage<Artsubcategory> updateArtSub(@RequestBody ArtsubcategoryDTO artSubCategory) {
+    public Result<Artsubcategory> updateArtSub(@RequestBody ArtsubcategoryDTO artSubCategory) {
         Artsubcategory artSub = artSubService.updateArtSub(artSubCategory);
-        return ResponseMessage.success(artSub);
+        return Result.success(artSub);
     }
 }

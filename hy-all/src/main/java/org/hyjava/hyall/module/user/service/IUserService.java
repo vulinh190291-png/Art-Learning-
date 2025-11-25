@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.user.service;
+import org.hyjava.hyall.common.core.result.Result;
 
 import org.hyjava.hyall.module.user.pojo.User;
 import org.hyjava.hyall.module.user.pojo.dto.UserDTO;

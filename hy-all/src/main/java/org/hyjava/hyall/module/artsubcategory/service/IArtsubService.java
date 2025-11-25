@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.artsubcategory.service;
+import org.hyjava.hyall.common.core.result.Result;
 
 import org.hyjava.hyall.module.artsubcategory.pojo.Artsubcategory;
 import org.hyjava.hyall.module.artsubcategory.pojo.dto.ArtsubcategoryDTO;

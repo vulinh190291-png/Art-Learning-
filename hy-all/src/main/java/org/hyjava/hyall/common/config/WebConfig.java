@@ -1,4 +1,5 @@
 package org.hyjava.hyall.common.config;
+import org.hyjava.hyall.common.core.result.Result;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

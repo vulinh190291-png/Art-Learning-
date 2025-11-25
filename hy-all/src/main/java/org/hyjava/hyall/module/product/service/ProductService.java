@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.product.service;
+import org.hyjava.hyall.common.core.result.Result;
 
 import org.hyjava.hyall.module.product.pojo.dto.ProductDTO;
 import org.hyjava.hyall.module.product.pojo.Product;

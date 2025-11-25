@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.post.service;
+import org.hyjava.hyall.common.core.result.Result;
 
 
 import org.hyjava.hyall.module.post.pojo.Post;
