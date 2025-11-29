@@ -8,6 +8,8 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class CollectionService implements ICollectionService{
     @Autowired
@@ -33,4 +35,9 @@ public class CollectionService implements ICollectionService{
 
     @Override
     public Collection queryCollection(Integer collectionId) {return collectionRepository.findById(collectionId).get();}
+
+    @Override
+    public List<Collection> queryAllCollectionBatch(List<Integer> collectionId){
+        return collectionRepository.findAllById(collectionId);
+    }
 }

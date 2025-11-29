@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 
 @RestController
 @RequestMapping("/sci")
@@ -35,5 +37,11 @@ public class SciController {
     public Result<Sci> querySci(@RequestBody Integer cartItemId) {
         Sci nsci = sciService.querySci(cartItemId);
         return Result.success(nsci);
+    }
+
+    @PostMapping
+    public Result<List<Sci>> queryAllSciBatch(@RequestBody List<Integer> userIdList) {
+        List<Sci> list = sciService.queryAllSciBatch(userIdList);
+        return Result.success(list);
     }
 }

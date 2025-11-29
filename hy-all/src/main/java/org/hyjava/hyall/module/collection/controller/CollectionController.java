@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/collection")
 public class CollectionController {
@@ -32,5 +34,11 @@ public class CollectionController {
     public Result<Collection> queryCollection(@RequestParam Integer collectionId){
         Collection ncollection = collectionService.queryCollection(collectionId);
         return Result.success(ncollection);
+    }
+
+    @PostMapping
+    public Result<List<Collection>> queryAllCollectionBatch(@RequestBody List<Integer> collectionId){
+        List<Collection> list = collectionService.queryAllCollectionBatch(collectionId);
+        return Result.success(list);
     }
 }

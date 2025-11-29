@@ -8,6 +8,8 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class SciService  implements ISciService{
     @Autowired
@@ -36,5 +38,10 @@ public class SciService  implements ISciService{
     @Override
     public Sci querySci(Integer cartItemId) {
         return sciRepository.findById(cartItemId).get();
+    }
+
+    @Override
+    public List<Sci> queryAllSciBatch(List<Integer> userIdlist){
+        return sciRepository.findAllById(userIdlist);
     }
 }

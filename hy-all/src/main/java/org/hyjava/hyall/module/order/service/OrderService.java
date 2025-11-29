@@ -8,6 +8,8 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class OrderService implements IOrderService{
     @Autowired
@@ -36,5 +38,10 @@ public class OrderService implements IOrderService{
     @Override
     public Order queryOrder(Integer order_id) {
         return null;
+    }
+
+    @Override
+    public List<Order> queryAllOrderBatch(List<Integer> userIdlist) {
+        return orderRepository.findAllById(userIdlist);
     }
 }

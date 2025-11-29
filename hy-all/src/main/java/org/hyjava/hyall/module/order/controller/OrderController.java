@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/order")
 public class OrderController {
@@ -34,5 +36,11 @@ public class OrderController {
     public Result<Order> queryOrder(@RequestBody Integer orderId) {
         Order norder = orderService.queryOrder(orderId);
         return Result.success(norder);
+    }
+
+    @PostMapping
+    public Result<List<Order>> queryAllOrderBatch(@RequestBody List<Integer> userIdlist) {
+        List<Order> list = orderService.queryAllOrderBatch(userIdlist);
+        return Result.success(list);
     }
 }
