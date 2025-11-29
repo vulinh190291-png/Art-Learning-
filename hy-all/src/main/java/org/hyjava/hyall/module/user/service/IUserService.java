@@ -10,4 +10,5 @@ public interface IUserService {
     public User updateUser(UserDTO User);
     public User queryUser(Integer userId);
     public Iterable<User> queryAllUser(Iterable<Integer> userIdList);
+    public String login(String username, String password);
 }

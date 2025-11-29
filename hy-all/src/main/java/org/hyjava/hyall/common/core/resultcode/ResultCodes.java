@@ -4,6 +4,7 @@ import lombok.Getter;
 
 public enum ResultCodes {
     SUCCESS(200, "成功"),
+    ERROR(400, "登录错误"),
     NOTFOUND(404, "没有找到资源"),
     NOTLOGIN(401, "未登录"),
     UNAUTH(402, "没有权限"),

@@ -43,4 +43,12 @@ public class UserController {
         Iterable<User> nLUser = userService.queryAllUser();
         return Result.success(nLUser);
     }
+
+    @PostMapping("/login")
+    public Result<String> login(@RequestBody UserDTO userDTO) {
+        // 只要用户名和密码
+        String token = userService.login(userDTO.getUserName(), userDTO.getPassword());
+        // 返回 Token 给前端
+        return Result.success(token);
+    }
 }
