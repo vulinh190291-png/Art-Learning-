@@ -538,6 +538,14 @@
       ],
       "comments": [
         {
+          "commentId": 3,
+          "userId": 1,
+          "userNickname": "观山海",
+          "userAvatar": "http://localhost:3000/uploads/avatars/1752160012635-hmbb.jpg",
+          "content": "？",
+          "createdAt": 1764495231327
+        },
+        {
           "commentId": 2,
           "userId": 1,
           "userNickname": "观山海",

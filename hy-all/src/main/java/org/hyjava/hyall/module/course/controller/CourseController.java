@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/course")
 public class CourseController {
@@ -33,5 +35,11 @@ public class CourseController {
     public Result<Course> queryCourse(@RequestBody Integer courseId){
         Course ncourse = courseService.queryCourse(courseId);
         return Result.success(ncourse);
+    }
+
+    @PostMapping
+    public Result<List<Course>> queryAllCourse(@RequestBody List<Integer> courseIdList){
+        List<Course> list = courseService.queryAllCourses(courseIdList);
+        return Result.success(list);
     }
 }

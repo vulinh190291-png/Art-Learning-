@@ -8,6 +8,8 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class CourseService implements ICourseService{
     @Autowired
@@ -31,4 +33,8 @@ public class CourseService implements ICourseService{
     @Override
     public Course  queryCourse(Integer courseId) {return null;}
 
+    @Override
+    public List<Course> queryAllCourses(List<Integer> courseIdList) {
+        return  courseRepository.findAllById(courseIdList);
+    }
 }
