@@ -38,7 +38,7 @@ public class OrderController {
         return Result.success(norder);
     }
 
-    @PostMapping
+    @PostMapping("/batch")
     public Result<List<Order>> queryAllOrderBatch(@RequestBody List<Integer> userIdlist) {
         List<Order> list = orderService.queryAllOrderBatch(userIdlist);
         return Result.success(list);

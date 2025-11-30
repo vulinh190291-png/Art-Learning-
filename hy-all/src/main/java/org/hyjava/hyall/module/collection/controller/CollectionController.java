@@ -1,6 +1,6 @@
 package org.hyjava.hyall.module.collection.controller;
-import org.hyjava.hyall.common.core.result.Result;
 
+import org.hyjava.hyall.common.core.result.Result;
 import org.hyjava.hyall.module.collection.pojo.Collection;
 import org.hyjava.hyall.module.collection.pojo.dto.CollectionDTO;
 import org.hyjava.hyall.module.collection.service.ICollectionService;
@@ -13,17 +13,22 @@ import java.util.List;
 @RestController
 @RequestMapping("/collection")
 public class CollectionController {
+
     @Autowired
     ICollectionService collectionService;
+
+    // 1. ADD (Create) -> POST /collection
     @PostMapping
     public Result<Collection> addCollection(@RequestBody @Validated CollectionDTO collection){
         Collection ncollection = collectionService.addCollection(collection);
         return Result.success(ncollection);
     }
+
     @DeleteMapping
     public void deleteCollection(@RequestBody Integer collectionId){
         collectionService.deleteCollection(collectionId);
     }
+
     @PutMapping
     public Result<Collection> updateCollection(@RequestBody @Validated CollectionDTO collection){
         Collection ncollection = collectionService.updateCollection(collection);
@@ -36,7 +41,9 @@ public class CollectionController {
         return Result.success(ncollection);
     }
 
-    @PostMapping
+    // 2. BATCH QUERY -> POST /collection/batch
+    // FIX: Added "/batch" to distinguish this from the addCollection method
+    @PostMapping("/batch")
     public Result<List<Collection>> queryAllCollectionBatch(@RequestBody List<Integer> collectionId){
         List<Collection> list = collectionService.queryAllCollectionBatch(collectionId);
         return Result.success(list);

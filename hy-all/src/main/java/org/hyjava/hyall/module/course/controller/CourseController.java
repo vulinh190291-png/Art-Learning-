@@ -37,7 +37,7 @@ public class CourseController {
         return Result.success(ncourse);
     }
 
-    @PostMapping
+    @PostMapping("/batch")
     public Result<List<Course>> queryAllCourse(@RequestBody List<Integer> courseIdList){
         List<Course> list = courseService.queryAllCourses(courseIdList);
         return Result.success(list);

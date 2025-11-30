@@ -39,7 +39,7 @@ public class SciController {
         return Result.success(nsci);
     }
 
-    @PostMapping
+    @PostMapping("/batch")
     public Result<List<Sci>> queryAllSciBatch(@RequestBody List<Integer> userIdList) {
         List<Sci> list = sciService.queryAllSciBatch(userIdList);
         return Result.success(list);
