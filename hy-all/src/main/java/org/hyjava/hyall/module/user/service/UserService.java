@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 import org.hyjava.hyall.common.utils.JwtUtils;
 import org.hyjava.hyall.common.exception.BizException;
 
+import java.util.List;
+
 @Service
 public class UserService implements IUserService{
     @Autowired
@@ -41,7 +43,7 @@ public class UserService implements IUserService{
     }
 
     @Override
-    public Iterable<User> queryAllUser(Iterable<Integer> userIdList) {
+    public List<User> queryAllUser(List<Integer> userIdList) {
         return userRepository.findAllById(userIdList);
     }
 
