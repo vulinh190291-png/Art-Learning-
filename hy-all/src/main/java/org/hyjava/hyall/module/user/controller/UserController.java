@@ -16,6 +16,7 @@ import java.util.List;
 public class UserController {
     @Autowired
     IUserService userService;
+
     @PostMapping
     public Result<User> addUser(@RequestBody @Validated UserDTO user) {
         User nuser = userService.addUser(user);
@@ -39,17 +40,16 @@ public class UserController {
         return Result.success(nuser);
     }
 
-    @GetMapping("/getbatch")
-    public Result<List<User>> queryAllUser(List<Integer> userIds) {
+    // 修正点：加上了 @RequestBody
+    @PostMapping("/batch")
+    public Result<List<User>> queryAllUser(@RequestBody List<Integer> userIds) {
         List<User> nLUser = userService.queryAllUser(userIds);
         return Result.success(nLUser);
     }
 
     @PostMapping("/login")
     public Result<String> login(@RequestBody UserDTO userDTO) {
-        // 只要用户名和密码
         String token = userService.login(userDTO.getUserName(), userDTO.getPassword());
-        // 返回 Token 给前端
         return Result.success(token);
     }
 }
