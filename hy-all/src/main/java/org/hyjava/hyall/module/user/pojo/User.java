@@ -1,4 +1,5 @@
 package org.hyjava.hyall.module.user.pojo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hyjava.hyall.common.core.result.Result;
 
 import jakarta.persistence.*;
@@ -21,6 +22,7 @@ public class User {
     @Column(name="password_hash")
     @Getter
     @Setter
+    @JsonIgnore
     private String password;
     @Column(name="nickname")
     @Getter

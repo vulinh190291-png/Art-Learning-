@@ -39,8 +39,9 @@ public class UserController {
         return Result.success(nuser);
     }
 
-    public Result<Iterable<User>> queryAllUser() {
-        Iterable<User> nLUser = userService.queryAllUser();
+    @GetMapping("/getbatch")
+    public Result<List<User>> queryAllUser(List<Integer> userIds) {
+        List<User> nLUser = userService.queryAllUser(userIds);
         return Result.success(nLUser);
     }
 
