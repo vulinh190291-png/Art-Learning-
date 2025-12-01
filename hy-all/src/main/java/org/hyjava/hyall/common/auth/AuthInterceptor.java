@@ -14,7 +14,16 @@ public class AuthInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        // 1. 对于 OPTIONS 预检请求直接放行
+
+        UserContext.setUserId(3);
+
+        // 2. 控制台打印日志，提醒自己现在是“裸奔”状态
+        System.out.println("⚠️⚠️⚠️ 鉴权已临时关闭！当前强制模拟用户 ID: 3");
+
+        // 3. 直接放行，不检查 Token
+        return true;
+
+        /*
         if ("OPTIONS".equalsIgnoreCase(request.getMethod())) {
             return true;
         }
@@ -36,7 +45,7 @@ public class AuthInterceptor implements HandlerInterceptor {
         // 5. 存入上下文
         UserContext.setUserId(userId);
 
-        return true; // 放行
+        return true; // 放行*/
     }
 
     @Override
