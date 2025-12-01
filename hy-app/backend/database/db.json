@@ -1462,8 +1462,13 @@
       "courseId": 1,
       "completedChapters": [
         101,
-        102
-      ]
+        102,
+        103,
+        104,
+        105
+      ],
+      "certificateAwarded": true,
+      "awardDate": "2025-11-30T12:46:03.284Z"
     },
     {
       "id": 2,
@@ -1706,6 +1711,10 @@
         {
           "productId": 5,
           "quantity": 1
+        },
+        {
+          "productId": 7,
+          "quantity": 10
         }
       ]
     },
