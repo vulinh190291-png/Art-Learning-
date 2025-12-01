@@ -17,7 +17,7 @@ public class Course {
     @Getter
     @Setter
     @Column(name = "instructor_id")
-    private String instructorId;
+    private Integer instructorId;
     @Getter
     @Setter
     @Column(name = "title")
@@ -33,7 +33,7 @@ public class Course {
     @Getter
     @Setter
     @Column(name = "type")
-    private Enum type;
+    private String type;
     @Getter
     @Setter
     @Column(name = "student_count")
