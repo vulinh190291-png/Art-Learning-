@@ -32,7 +32,7 @@ public class LikeController {
     }
 
     @PutMapping
-    public Result<Like> updateLike(@RequestBody LikeDTO like) {
+    public Result<Like> updateLike(@RequestBody  LikeDTO like) {
         Like nLike = likeservice.updateLike(like);
         return Result.success(nLike);
     }
