@@ -39,9 +39,19 @@ public class CourseEnrollmentService implements ICourseEnrollmentService {
 
         // 2. 创建报名记录
         UserCourseEnrollment enrollment = new UserCourseEnrollment();
+
         enrollment.setUserId(userId);
+
         enrollment.setCourseId(courseId);
-        enrollment.setCertificateAwarded(false); // 默认未获得证书
+
+// 学习进度从 0 开始
+        enrollment.setProgress(0);
+
+// 刚报名，还没有开始完成章节
+        enrollment.setStatus(CourseLearningStatus.NOT_STARTED);
+
+// 默认没有获得证书
+        enrollment.setCertificateAwarded(false);
 
         return enrollmentRepository.save(enrollment);
     }
