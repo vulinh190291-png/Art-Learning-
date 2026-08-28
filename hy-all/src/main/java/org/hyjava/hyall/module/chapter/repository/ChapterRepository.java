@@ -7,4 +7,12 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ChapterRepository extends JpaRepository<Chapter,Integer> {
+
+    long countByCourseId(Integer courseId);
+
+    //判断“章节是否真的属于这门课”
+    boolean existsByChapterIdAndCourseId(
+            Integer chapterId,
+            Integer courseId
+    );
 }
