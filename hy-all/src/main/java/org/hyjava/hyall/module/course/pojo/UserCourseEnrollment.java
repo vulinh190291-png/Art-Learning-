@@ -5,13 +5,17 @@ import lombok.Getter;
 import lombok.Setter;
 import java.util.Date;
 
+        //给章节完成增加唯一性约束
 @Entity
 @Table(
-        name = "user_course_enrollment",
+        name = "user_course_chapter_completed",
         uniqueConstraints = {
                 @UniqueConstraint(
-                        name = "uk_user_course",
-                        columnNames = {"user_id", "course_id"}
+                        name = "uk_enrollment_chapter",
+                        columnNames = {
+                                "enrollment_id",
+                                "chapter_id"
+                        }
                 )
         }
 )

@@ -12,6 +12,7 @@ import org.hyjava.hyall.module.course.repository.UserCourseEnrollmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.hyjava.hyall.module.chapter.repository.ChapterRepository;
 
 import java.util.Date;
 import java.util.List;
@@ -24,6 +25,9 @@ public class CourseEnrollmentService implements ICourseEnrollmentService {
 
     @Autowired
     UserCourseChapterCompletedRepository completedRepository;
+
+    @Autowired
+    ChapterRepository chapterRepository;
 
     @Override
     @Transactional
@@ -44,13 +48,13 @@ public class CourseEnrollmentService implements ICourseEnrollmentService {
 
         enrollment.setCourseId(courseId);
 
-// 学习进度从 0 开始
+        // 学习进度从 0 开始
         enrollment.setProgress(0);
 
-// 刚报名，还没有开始完成章节
+        // 刚报名，还没有开始完成章节
         enrollment.setStatus(CourseLearningStatus.NOT_STARTED);
 
-// 默认没有获得证书
+        // 默认没有获得证书
         enrollment.setCertificateAwarded(false);
 
         return enrollmentRepository.save(enrollment);
@@ -75,7 +79,14 @@ public class CourseEnrollmentService implements ICourseEnrollmentService {
             throw new BizException(ResultCodes.NOTFOUND);
         }
 
-        // 3. 保存打卡记录
+        // 3. 检查该章节是否属于课程
+        boolean chapterBelongsToCourse = chapterRepository.existsByChapterIdAndCourseId(chapterId, courseId);
+
+        if (!chapterBelongsToCourse) {
+            throw new BizException(ResultCodes.NOTFOUND);
+        }
+
+        // 4. 保存打卡记录
         UserCourseChapterCompleted completed = new UserCourseChapterCompleted();
         completed.setEnrollmentId(enrollment.getEnrollmentId()); // 关联到报名记录ID
         completed.setChapterId(chapterId);

@@ -8,9 +8,10 @@ import java.util.List;
 
 @Repository
 public interface UserCourseChapterCompletedRepository extends JpaRepository<UserCourseChapterCompleted, Integer> {
+
     // 检查某次报名记录下，某章是否已完成（防止重复打卡）
     boolean existsByEnrollmentIdAndChapterId(Integer enrollmentId, Integer chapterId);
 
-    // 查询某次报名的所有完成记录（用于计算进度）
-    List<UserCourseChapterCompleted> findAllByEnrollmentId(Integer enrollmentId);
+    //没必要为了数数量，把所有对象都从数据库查出来
+    long countByEnrollmentId(Integer enrollmentId);
 }
