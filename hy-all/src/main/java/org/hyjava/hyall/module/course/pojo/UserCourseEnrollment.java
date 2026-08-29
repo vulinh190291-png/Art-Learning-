@@ -64,4 +64,3 @@ public class UserCourseEnrollment {
     @Setter
     private Date awardDate;
 }
-}

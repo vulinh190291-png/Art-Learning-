@@ -4,6 +4,7 @@ import org.hyjava.hyall.common.auth.UserContext;
 import org.hyjava.hyall.common.core.resultcode.ResultCodes;
 import org.hyjava.hyall.common.exception.BizException;
 import org.hyjava.hyall.module.course.pojo.UserCourseChapterCompleted;
+import org.hyjava.hyall.module.course.pojo.CourseLearningStatus;
 import org.hyjava.hyall.module.course.pojo.UserCourseEnrollment;
 import org.hyjava.hyall.module.course.pojo.dto.ChapterCompleteDTO;
 import org.hyjava.hyall.module.course.pojo.dto.EnrollRequestDTO;
@@ -63,34 +64,82 @@ public class CourseEnrollmentService implements ICourseEnrollmentService {
     @Override
     @Transactional
     public UserCourseChapterCompleted completeChapter(ChapterCompleteDTO completeDTO) {
+
         Integer userId = UserContext.getUserId();
         Integer courseId = completeDTO.getCourseId();
         Integer chapterId = completeDTO.getChapterId();
 
-        // 1. 关键逻辑：必须先查 Enrollment 表，获取 enrollmentId
+        // 1. 检查用户是否报名课程
         UserCourseEnrollment enrollment = enrollmentRepository.findByUserIdAndCourseId(userId, courseId);
+
         if (enrollment == null) {
             throw new BizException(ResultCodes.NOTFOUND);
         }
 
-        // 2. 检查该章节是否已经打过卡
-        boolean isCompleted = completedRepository.existsByEnrollmentIdAndChapterId(enrollment.getEnrollmentId(), chapterId);
-        if (isCompleted) {
+        // 2. 检查章节是否属于当前课程
+        boolean chapterExists = chapterRepository.existsByChapterIdAndCourseId(chapterId, courseId);
+
+        if (!chapterExists) {
             throw new BizException(ResultCodes.NOTFOUND);
         }
 
-        // 3. 检查该章节是否属于课程
-        boolean chapterBelongsToCourse = chapterRepository.existsByChapterIdAndCourseId(chapterId, courseId);
+        // 3. 幂等检查
+        boolean alreadyCompleted = completedRepository.existsByEnrollmentIdAndChapterId(enrollment.getEnrollmentId(), chapterId);
 
-        if (!chapterBelongsToCourse) {
-            throw new BizException(ResultCodes.NOTFOUND);
+        if (alreadyCompleted) {
+            throw new BizException(ResultCodes.OVERTIME);
         }
 
-        // 4. 保存打卡记录
-        UserCourseChapterCompleted completed = new UserCourseChapterCompleted();
-        completed.setEnrollmentId(enrollment.getEnrollmentId()); // 关联到报名记录ID
+        // 4. 保存章节完成记录
+        UserCourseChapterCompleted completed =
+                new UserCourseChapterCompleted();
+
+        completed.setEnrollmentId(
+                enrollment.getEnrollmentId()
+        );
+
         completed.setChapterId(chapterId);
-        return completedRepository.save(completed);
+
+        completedRepository.save(completed);
+
+        // 5. 查询课程总章节数量
+        long totalChapters =
+                chapterRepository
+                        .countByCourseId(courseId);
+
+        if (totalChapters == 0) {
+            throw new BizException(ResultCodes.NOTFOUND);
+        }
+
+        // 6. 查询已经完成的章节数量
+        long completedChapters = completedRepository.countByEnrollmentId(enrollment.getEnrollmentId());
+
+        // 7. 计算学习进度
+        int progress =
+                (int) (completedChapters * 100 / totalChapters);
+
+        enrollment.setProgress(progress);
+
+        // 8. 更新学习状态
+        if (progress >= 100) {
+
+            enrollment.setProgress(100);
+
+            enrollment.setStatus(CourseLearningStatus.COMPLETED);
+
+            enrollment.setCompletedAt(new Date());
+
+        } else {
+
+            enrollment.setStatus(
+                    CourseLearningStatus.IN_PROGRESS
+            );
+        }
+
+        // 9. 保存课程学习状态
+        enrollmentRepository.save(enrollment);
+
+        return completed;
     }
 
     @Override
