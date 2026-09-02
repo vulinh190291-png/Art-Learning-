@@ -5,7 +5,18 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "user_course_chapter_completed")
+@Table(
+        name = "user_course_chapter_completed",
+        uniqueConstraints = {
+                @UniqueConstraint(
+                        name = "uk_enrollment_chapter",
+                        columnNames = {
+                                "enrollment_id",
+                                "chapter_id"
+                        }
+                )
+        }
+)
 public class UserCourseChapterCompleted {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
