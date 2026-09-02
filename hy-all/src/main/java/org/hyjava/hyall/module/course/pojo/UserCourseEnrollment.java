@@ -8,13 +8,13 @@ import java.util.Date;
         //给章节完成增加唯一性约束
 @Entity
 @Table(
-        name = "user_course_chapter_completed",
+        name = "user_course_enrollment",
         uniqueConstraints = {
                 @UniqueConstraint(
-                        name = "uk_enrollment_chapter",
+                        name = "uk_user_course",
                         columnNames = {
-                                "enrollment_id",
-                                "chapter_id"
+                                "user_id",
+                                "course_id"
                         }
                 )
         }
@@ -63,5 +63,4 @@ public class UserCourseEnrollment {
     @Getter
     @Setter
     private Date awardDate;
-}
 }
