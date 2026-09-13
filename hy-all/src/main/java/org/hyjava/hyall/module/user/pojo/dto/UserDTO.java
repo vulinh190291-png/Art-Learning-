@@ -1,26 +1,59 @@
 package org.hyjava.hyall.module.user.pojo.dto;
 import org.hyjava.hyall.common.core.result.Result;
 
-import lombok.Getter;
-import lombok.Setter;
-
 public class UserDTO {
-    @Getter
-    @Setter
-    private Integer userId;
-    @Getter
-    @Setter
-    private String userName;
-    @Getter
-    @Setter
-    private String password;
-    @Getter
-    @Setter
-    private String nickName;
-    @Getter
-    @Setter
-    private String userAvatar;
-    @Getter
-    @Setter
-    private String userBio;
+            private Integer userId;
+            private String userName;
+            private String password;
+            private String nickName;
+            private String userAvatar;
+            private String userBio;
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getNickName() {
+        return nickName;
+    }
+
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
+    }
+
+    public String getUserAvatar() {
+        return userAvatar;
+    }
+
+    public void setUserAvatar(String userAvatar) {
+        this.userAvatar = userAvatar;
+    }
+
+    public String getUserBio() {
+        return userBio;
+    }
+
+    public void setUserBio(String userBio) {
+        this.userBio = userBio;
+    }
 }

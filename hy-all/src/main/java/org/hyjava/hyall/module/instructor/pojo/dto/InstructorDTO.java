@@ -1,27 +1,54 @@
 package org.hyjava.hyall.module.instructor.pojo.dto;
 import org.hyjava.hyall.common.core.result.Result;
 
-import lombok.Getter;
-import lombok.Setter;
-
 public class InstructorDTO {
-    @Getter
-    @Setter
-    private int Id;
+            private int Id;
 
-    @Getter
-    @Setter
-    private String Name;
+            private String Name;
 
-    @Getter
-    @Setter
-    private String Title;
+            private String Title;
 
-    @Getter
-    @Setter
-    private String AvatarUrl;
+            private String AvatarUrl;
 
-    @Getter
-    @Setter
-    private String Bio;
+            private String Bio;
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int Id) {
+        this.Id = Id;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String Name) {
+        this.Name = Name;
+    }
+
+    public String getTitle() {
+        return Title;
+    }
+
+    public void setTitle(String Title) {
+        this.Title = Title;
+    }
+
+    public String getAvatarUrl() {
+        return AvatarUrl;
+    }
+
+    public void setAvatarUrl(String AvatarUrl) {
+        this.AvatarUrl = AvatarUrl;
+    }
+
+    public String getBio() {
+        return Bio;
+    }
+
+    public void setBio(String Bio) {
+        this.Bio = Bio;
+    }
 }

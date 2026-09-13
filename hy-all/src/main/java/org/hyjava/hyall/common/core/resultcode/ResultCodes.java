@@ -1,7 +1,5 @@
 package org.hyjava.hyall.common.core.resultcode;
 
-import lombok.Getter;
-
 public enum ResultCodes {
     SUCCESS(200, "成功"),
     ERROR(400, "登录错误"),
@@ -12,13 +10,19 @@ public enum ResultCodes {
     TOOLARGE(413, "请求实体过大"),
     OVERTIME(408, "请求超时");
 
-    @Getter
-    public final int code;
-    @Getter
-    public final String msg;
+    private final int code;
+    private final String msg;
 
     ResultCodes(int code, String msg) {
         this.code = code;
         this.msg = msg;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public String getMsg() {
+        return msg;
     }
 }

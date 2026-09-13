@@ -80,8 +80,7 @@ class CourseEnrollmentServiceTest {
                 .thenReturn(1L);
 
         // 4. 调用真实业务方法
-        UserCourseChapterCompleted result =
-                courseEnrollmentService.completeChapter(completeDTO);
+        UserCourseChapterCompleted result = courseEnrollmentService.completeChapter(completeDTO);
 
         // 5. 验证真实业务结果
         assertNotNull(result);
@@ -91,8 +90,7 @@ class CourseEnrollmentServiceTest {
         assertEquals(50, enrollment.getProgress());
         assertEquals(
                 CourseLearningStatus.IN_PROGRESS,
-                enrollment.getStatus()
-        );
+                enrollment.getStatus());
         assertNull(enrollment.getCompletedAt());
 
         // 6. 验证完成记录和报名状态被保存
@@ -136,8 +134,7 @@ class CourseEnrollmentServiceTest {
                 .thenReturn(2L);
 
         // 4. 调用真实业务方法
-        UserCourseChapterCompleted result =
-                courseEnrollmentService.completeChapter(completeDTO);
+        UserCourseChapterCompleted result = courseEnrollmentService.completeChapter(completeDTO);
 
         // 5. 验证章节完成记录
         assertNotNull(result);
@@ -148,8 +145,7 @@ class CourseEnrollmentServiceTest {
         assertEquals(100, enrollment.getProgress());
         assertEquals(
                 CourseLearningStatus.COMPLETED,
-                enrollment.getStatus()
-        );
+                enrollment.getStatus());
         assertNotNull(enrollment.getCompletedAt());
 
         // 7. 验证保存操作
@@ -189,15 +185,13 @@ class CourseEnrollmentServiceTest {
         // 4. 验证重复请求会抛出业务异常
         assertThrows(
                 BizException.class,
-                () -> courseEnrollmentService.completeChapter(completeDTO)
-        );
+                () -> courseEnrollmentService.completeChapter(completeDTO));
 
         // 5. 原有学习状态不能被改变
         assertEquals(100, enrollment.getProgress());
         assertEquals(
                 CourseLearningStatus.COMPLETED,
-                enrollment.getStatus()
-        );
+                enrollment.getStatus());
 
         // 6. 重复请求不能继续执行统计和保存
         verify(chapterRepository, never())
@@ -237,15 +231,13 @@ class CourseEnrollmentServiceTest {
         // 3. 应当抛出业务异常
         assertThrows(
                 BizException.class,
-                () -> courseEnrollmentService.completeChapter(completeDTO)
-        );
+                () -> courseEnrollmentService.completeChapter(completeDTO));
 
         // 4. 原来的学习状态不能变化
         assertEquals(50, enrollment.getProgress());
         assertEquals(
                 CourseLearningStatus.IN_PROGRESS,
-                enrollment.getStatus()
-        );
+                enrollment.getStatus());
         assertNull(enrollment.getCompletedAt());
 
         // 5. 章节无效后，不应继续检查完成记录
@@ -273,8 +265,7 @@ class CourseEnrollmentServiceTest {
         // 3. 应当立即抛出业务异常
         assertThrows(
                 BizException.class,
-                () -> courseEnrollmentService.completeChapter(completeDTO)
-        );
+                () -> courseEnrollmentService.completeChapter(completeDTO));
 
         // 4. 没有报名时，不应该继续查询章节和完成记录
         verifyNoInteractions(chapterRepository);

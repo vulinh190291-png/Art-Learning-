@@ -1,8 +1,13 @@
 package org.hyjava.hyall.module.course.pojo.dto;
 
-import lombok.Data;
-
-@Data
 public class EnrollRequestDTO {
     private Integer courseId;
+
+    public Integer getCourseId() {
+        return courseId;
+    }
+
+    public void setCourseId(Integer courseId) {
+        this.courseId = courseId;
+    }
 }
