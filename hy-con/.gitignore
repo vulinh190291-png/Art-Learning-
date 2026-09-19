@@ -1,0 +1,15 @@
+# uni-app
+unpackage/
+node_modules/
+
+# Editor
+.hbuilderx/
+.idea/
+.vscode/
+
+# Build
+.DS_Store
+
+# Environment
+.env
+.env.local

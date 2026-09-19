@@ -1,7 +1,11 @@
-### 保证PPT不上传 ###
+# 全局忽略规则
+
+# PPT文件
 *.pptx
-### IntelliJ IDEA ###
+
+# IDE
 .idea/
-*.iml
-target/
+.vscode/
+
+# 日志文件
 *.log

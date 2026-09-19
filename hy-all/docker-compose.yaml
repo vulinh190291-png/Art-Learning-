@@ -1,0 +1,16 @@
+services:
+  mysql:
+    image: mysql:latest
+    container_name: art_learn_sql
+    environment:
+      MYSQL_DATABASE: art
+      MYSQL_USER: develop
+      MYSQL_PASSWORD: develop
+      MYSQL_ROOT_PASSWORD: rootpass
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:

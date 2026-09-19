@@ -1,24 +1,71 @@
 package org.hyjava.hyall.module.order.pojo.dto;
 
-import lombok.Getter;
-import lombok.Setter;
 import java.util.Date;
 
 public class OrderDTO {
-    @Getter @Setter
     private Integer orderId;
-    @Getter @Setter
     private String orderNumber;
-    @Getter @Setter
     private Integer userId;
-    @Getter @Setter
     private Double totalPrice;
-    @Getter @Setter
     private String status;
-    @Getter @Setter
     private Date createdAt;
 
     // 新增：前端下单必须传这个地址ID
-    @Getter @Setter
     private Integer addressId;
+
+    public Integer getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(Integer orderId) {
+        this.orderId = orderId;
+    }
+
+    public String getOrderNumber() {
+        return orderNumber;
+    }
+
+    public void setOrderNumber(String orderNumber) {
+        this.orderNumber = orderNumber;
+    }
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+
+    public Double getTotalPrice() {
+        return totalPrice;
+    }
+
+    public void setTotalPrice(Double totalPrice) {
+        this.totalPrice = totalPrice;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public Date getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public Integer getAddressId() {
+        return addressId;
+    }
+
+    public void setAddressId(Integer addressId) {
+        this.addressId = addressId;
+    }
 }

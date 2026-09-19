@@ -2,8 +2,6 @@ package org.hyjava.hyall.module.collection.pojo;
 import org.hyjava.hyall.common.core.result.Result;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.util.Date;
 
@@ -12,21 +10,47 @@ import java.util.Date;
 public class Collection {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Getter
-    @Setter
     @Column(name = "collection_id")
     private Integer collectionId;
+
     @Column(name = "post_id")
-    @Getter
-    @Setter
     private Integer postId;
+
     @Column(name = "user_id")
-    @Getter
-    @Setter
     private Integer userId;
+
     @Column(name = "create_at")
-    @Getter
-    @Setter
     private Date createAt;
 
+    public Integer getCollectionId() {
+        return collectionId;
+    }
+
+    public void setCollectionId(Integer collectionId) {
+        this.collectionId = collectionId;
+    }
+
+    public Integer getPostId() {
+        return postId;
+    }
+
+    public void setPostId(Integer postId) {
+        this.postId = postId;
+    }
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+
+    public Date getCreateAt() {
+        return createAt;
+    }
+
+    public void setCreateAt(Date createAt) {
+        this.createAt = createAt;
+    }
 }

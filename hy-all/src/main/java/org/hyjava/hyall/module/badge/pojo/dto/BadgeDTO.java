@@ -1,20 +1,41 @@
 package org.hyjava.hyall.module.badge.pojo.dto;
 import org.hyjava.hyall.common.core.result.Result;
 
-import lombok.Getter;
-import lombok.Setter;
-
 public class BadgeDTO {
-    @Getter
-    @Setter
-    private Integer badgeId;
-    @Getter
-    @Setter
-    private String badgeName;
-    @Getter
-    @Setter
-    private String badgeDescription;
-    @Getter
-    @Setter
-    private String badgeImage;
+            private Integer badgeId;
+            private String badgeName;
+            private String badgeDescription;
+            private String badgeImage;
+
+    public Integer getBadgeId() {
+        return badgeId;
+    }
+
+    public void setBadgeId(Integer badgeId) {
+        this.badgeId = badgeId;
+    }
+
+    public String getBadgeName() {
+        return badgeName;
+    }
+
+    public void setBadgeName(String badgeName) {
+        this.badgeName = badgeName;
+    }
+
+    public String getBadgeDescription() {
+        return badgeDescription;
+    }
+
+    public void setBadgeDescription(String badgeDescription) {
+        this.badgeDescription = badgeDescription;
+    }
+
+    public String getBadgeImage() {
+        return badgeImage;
+    }
+
+    public void setBadgeImage(String badgeImage) {
+        this.badgeImage = badgeImage;
+    }
 }

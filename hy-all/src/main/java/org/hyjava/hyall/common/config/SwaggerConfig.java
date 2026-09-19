@@ -16,10 +16,10 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Hy-All 后端接口文档")
-                        .version("1.0")
+                        .title("后端接口文档")
+                        .version("dev")
                         .description("包含用户、课程、订单等所有模块的API调试")
-                        .contact(new Contact().name("后端开发团队")))
+                        .contact(new Contact().name("Ivan Horn")))
                 // 配置全局鉴权参数
                 .addSecurityItem(new SecurityRequirement().addList("Bearer Token"))
                 .components(new Components()

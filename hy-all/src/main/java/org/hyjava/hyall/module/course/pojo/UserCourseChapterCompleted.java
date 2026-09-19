@@ -1,8 +1,6 @@
 package org.hyjava.hyall.module.course.pojo;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
 
 @Entity
 @Table(
@@ -21,14 +19,35 @@ public class UserCourseChapterCompleted {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "completion_id") // 修正主键名
-    @Getter @Setter
     private Integer completionId;
 
     @Column(name = "enrollment_id") //
-    @Getter @Setter
     private Integer enrollmentId;
 
     @Column(name = "chapter_id") //
-    @Getter @Setter
     private Integer chapterId;
+
+    public Integer getCompletionId() {
+        return completionId;
+    }
+
+    public void setCompletionId(Integer completionId) {
+        this.completionId = completionId;
+    }
+
+    public Integer getEnrollmentId() {
+        return enrollmentId;
+    }
+
+    public void setEnrollmentId(Integer enrollmentId) {
+        this.enrollmentId = enrollmentId;
+    }
+
+    public Integer getChapterId() {
+        return chapterId;
+    }
+
+    public void setChapterId(Integer chapterId) {
+        this.chapterId = chapterId;
+    }
 }

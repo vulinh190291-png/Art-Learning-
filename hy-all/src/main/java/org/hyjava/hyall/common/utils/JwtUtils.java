@@ -25,7 +25,7 @@ public class JwtUtils {
     }
 
     // Token 有效期：24小时
-    private static final long EXPIRATION = 24 * 60 * 60 * 1000L;
+    private static final long EXPIRATION = 7 * 24 * 60 * 60 * 1000L;
 
     private static Key getKey() {
         return Keys.hmacShaKeyFor(SECRET_STRING.getBytes());

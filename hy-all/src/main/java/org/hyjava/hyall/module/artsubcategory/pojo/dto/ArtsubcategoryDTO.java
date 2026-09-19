@@ -1,39 +1,84 @@
 package org.hyjava.hyall.module.artsubcategory.pojo.dto;
 import org.hyjava.hyall.common.core.result.Result;
 
-import lombok.Getter;
-import lombok.Setter;
-
 public class ArtsubcategoryDTO {
-    @Getter
-    @Setter
-    private Integer subCateId;
+            private Integer subCateId;
 
-    @Getter
-    @Setter
-    private Integer categoryId;
+            private Integer categoryId;
 
-    @Getter
-    @Setter
-    private String name;
+            private String name;
 
-    @Getter
-    @Setter
-    private String coverImageUrl;
+            private String coverImageUrl;
 
-    @Getter
-    @Setter
-    private String introduction;
+            private String introduction;
 
-    @Getter
-    @Setter
-    private String history;
+            private String history;
 
-    @Getter
-    @Setter
-    private String features;
+            private String features;
 
-    @Getter
-    @Setter
-    private String culturalMeaning;
+            private String culturalMeaning;
+
+    public Integer getSubCateId() {
+        return subCateId;
+    }
+
+    public void setSubCateId(Integer subCateId) {
+        this.subCateId = subCateId;
+    }
+
+    public Integer getCategoryId() {
+        return categoryId;
+    }
+
+    public void setCategoryId(Integer categoryId) {
+        this.categoryId = categoryId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCoverImageUrl() {
+        return coverImageUrl;
+    }
+
+    public void setCoverImageUrl(String coverImageUrl) {
+        this.coverImageUrl = coverImageUrl;
+    }
+
+    public String getIntroduction() {
+        return introduction;
+    }
+
+    public void setIntroduction(String introduction) {
+        this.introduction = introduction;
+    }
+
+    public String getHistory() {
+        return history;
+    }
+
+    public void setHistory(String history) {
+        this.history = history;
+    }
+
+    public String getFeatures() {
+        return features;
+    }
+
+    public void setFeatures(String features) {
+        this.features = features;
+    }
+
+    public String getCulturalMeaning() {
+        return culturalMeaning;
+    }
+
+    public void setCulturalMeaning(String culturalMeaning) {
+        this.culturalMeaning = culturalMeaning;
+    }
 }

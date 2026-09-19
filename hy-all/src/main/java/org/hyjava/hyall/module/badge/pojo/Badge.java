@@ -2,8 +2,6 @@ package org.hyjava.hyall.module.badge.pojo;
 import org.hyjava.hyall.common.core.result.Result;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
 
 @Entity
 @Table(name = "badge")
@@ -11,21 +9,46 @@ public class Badge {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "badge_id")
-    @Getter
-    @Setter
     private Integer badgeId;
 
     @Column(name = "name")
-    @Getter
-    @Setter
     private String name;
+
     @Column(name="description")
-    @Getter
-    @Setter
     private String description;
+
     @Column(name="icon_url")
-    @Getter
-    @Setter
     private String iconUrl;
 
+    public Integer getBadgeId() {
+        return badgeId;
+    }
+
+    public void setBadgeId(Integer badgeId) {
+        this.badgeId = badgeId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getIconUrl() {
+        return iconUrl;
+    }
+
+    public void setIconUrl(String iconUrl) {
+        this.iconUrl = iconUrl;
+    }
 }

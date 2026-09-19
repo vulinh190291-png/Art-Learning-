@@ -15,7 +15,6 @@ public class UserContext {
         return userHolder.get();
     }
 
-    // 必须调用此方法清理，防止内存泄漏
     public static void remove() {
         userHolder.remove();
     }
